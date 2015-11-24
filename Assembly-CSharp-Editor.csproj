@@ -116,6 +116,7 @@
      <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberVisibilityEditor.cs" />
      <Compile Include="Assets\AdventureCreator\Scripts\Speech\Editor\LipSyncTextureEditor.cs" />
      <None Include="Assets\AdventureCreator\Graphics\Fonts\SIL Open Font License.txt" />
+     <None Include="Assets\Project\New Text Document.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
