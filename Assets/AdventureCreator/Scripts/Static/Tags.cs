@@ -24,6 +24,7 @@ namespace AC
 		public const string mainCamera = "MainCamera";
 		/** The name of the "Untagged" tag */
 		public const string untagged = "Untagged";
+		/** The name of the 'GameEngine" tag */
 		public const string gameEngine="GameEngine";
 		
 	}
