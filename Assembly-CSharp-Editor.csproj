@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<RootNamespace></RootNamespace>
+	<ProjectGuid>{67FAC15D-2321-261B-0CB2-767EA6210B81}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_2_2;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AdventureCreator\Demo\Scripts\Editor\ToolbarLinksDemo.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\ActionList\Editor\ActionListAssetEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\ActionList\Editor\ActionListEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\ActionList\Editor\ActionListEditorWindow.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\ActionList\Editor\ActionListEditorWindowData.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\ActionList\Editor\EditorZoomArea.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\ActionList\Editor\HierarchyIcons.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\FirstPersonCameraEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\FollowTintMapEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\GameCamera25DEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\GameCamera2DEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\GameCameraAnimatedEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\GameCameraEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\GameCameraThirdPersonEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\MainCameraEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\TintMapEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\_CameraEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Character\Editor\CharEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Character\Editor\NPCEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Character\Editor\PlayerEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Inventory\Editor\InvActionListAsset.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Inventory\Editor\InvActionListEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\AC_TriggerEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\ArrowPromptEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\ContainerEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\ConversationEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\ConversationEditorWindow.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\CutsceneEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\DialogueOptionEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\HotspotEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\InteractionEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\SoundEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Managers\Editor\ActiveInputsWindow.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Managers\Editor\AdventureCreator.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Managers\Editor\AlphaNumericSort.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Managers\Editor\CharacterWizardWindow.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Managers\Editor\ManagerPackageAsset.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Managers\Editor\ManagerPackageEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Managers\Editor\NewGameWizardWindow.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Managers\Editor\ToolbarLinks.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Menu\Editor\MenuActionListAsset.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Menu\Editor\MenuActionListEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Editor\DragBaseEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Editor\DragTrackEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Editor\DragTrack_CurvedEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Editor\DragTrack_HingeEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Editor\DragTrack_StraightEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Editor\Moveable_DragEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Editor\Moveable_PickUpEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Navigation\Editor\FollowSortingMapEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Navigation\Editor\NavigationMeshEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Navigation\Editor\PathsEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Navigation\Editor\PlayerStartEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Navigation\Editor\SortingMapEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Object\Editor\AlignToCameraEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Object\Editor\DetectHotspotsEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Object\Editor\HighlightEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Object\Editor\MenuLinkEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Object\Editor\Parallax2DEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Object\Editor\ShapeableEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\ConstantIDEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberColliderEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberConversationEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberHotspotEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberMoveableEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberNPCEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberTransformEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberTriggerEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberVisibilityEditor.cs" />
+     <Compile Include="Assets\AdventureCreator\Scripts\Speech\Editor\LipSyncTextureEditor.cs" />
+     <None Include="Assets\AdventureCreator\Graphics\Fonts\SIL Open Font License.txt" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Tizen.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/TizenPlayer/UnityEditor.Tizen.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SamsungTV.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/STVPlayer/UnityEditor.SamsungTV.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{468FD330-6A30-82CE-F0F7-83860BAB0CD6}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
