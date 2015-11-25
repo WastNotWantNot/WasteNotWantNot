@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 11490954}
-  - {fileID: 11442008}
+  - {fileID: 11439662}
   - {fileID: 11497864}
   - {fileID: 11442876}
   isSkippable: 1
@@ -21,7 +21,7 @@ MonoBehaviour:
   unfreezePauseMenus: 1
   useParameters: 0
   parameters: []
---- !u!114 &11442008
+--- !u!114 &11439662
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -29,13 +29,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b18e13856996b4c9d84b3a4c680d8a75, type: 3}
+  m_Script: {fileID: 11500000, guid: f3e7520fdcc044e6c96008328a357eb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
   category: 11
-  title: Change material
-  description: Changes the material on any scene-based mesh object.
+  title: Send message
+  description: Sends a given message to a GameObject. Can be either a message commonly-used
+    by Adventure Creator (Interact, TurnOn, etc) or a custom one, with an integer
+    argument.
   isDisplayed: 1
   numSockets: 1
   willWait: 0
@@ -58,17 +60,20 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 14
+    x: 0
+    y: 0
     width: 300
-    height: 165
+    height: 60
   nodeHeight: 0
-  constantID: 191210
+  constantID: 91830
   parameterID: -1
-  isPlayer: 0
-  obToAffect: {fileID: 0}
-  materialIndex: 0
-  newMaterial: {fileID: 2100000, guid: 5cf47a95e3ad44f0eae91c6770335bbb, type: 2}
+  linkedObject: {fileID: 0}
+  affectChildren: 1
+  messageToSend: 0
+  customMessage: Switch(true)
+  sendValue: 0
+  customValue: 0
+  ignoreWhenSkipping: 0
 --- !u!114 &11442876
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -106,10 +111,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 1
+    y: 14
     width: 300
-    height: 60
+    height: 165
   nodeHeight: 0
   parameterID: -1
   constantID: 273014
@@ -155,10 +160,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 14
     width: 300
-    height: 60
+    height: 219
   nodeHeight: 0
   parameterID: -1
   constantID: 169634
@@ -220,10 +225,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 1
+    y: 14
     width: 300
-    height: 60
+    height: 165
   nodeHeight: 0
   parameterID: -1
   constantID: 273014
