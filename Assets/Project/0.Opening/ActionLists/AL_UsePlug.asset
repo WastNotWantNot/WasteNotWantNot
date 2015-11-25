@@ -60,10 +60,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 14
     width: 300
-    height: 60
+    height: 165
   nodeHeight: 0
   constantID: 273014
   parameterID: -1
@@ -106,16 +106,16 @@ MonoBehaviour:
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 1
+  isEnabled: 0
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
+    x: 14
+    y: 513
+    width: 325
+    height: 183
   nodeHeight: 0
   parameterID: -1
   constantID: 14872
@@ -155,7 +155,7 @@ MonoBehaviour:
   category: 9
   title: Change state
   description: Provides various options to show and hide both menus and menu elements.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -177,10 +177,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 209
     width: 300
-    height: 60
+    height: 122
   nodeHeight: 0
   changeType: 0
   menuToChange: DoNotTouch
@@ -206,7 +206,7 @@ MonoBehaviour:
   category: 9
   title: Change state
   description: Provides various options to show and hide both menus and menu elements.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -228,10 +228,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 361
     width: 300
-    height: 60
+    height: 122
   nodeHeight: 0
   changeType: 3
   menuToChange: DoNotTouch

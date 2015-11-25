@@ -103,7 +103,7 @@ MonoBehaviour:
   hideIconUnderInteractionMenu: 0
   hotspotDrawing: 0
   navMeshRaycastLength: 100
-  hotspotRaycastLength: 1000
+  hotspotRaycastLength: 100
   moveableRaycastLength: 30
   hotspotLayer: Default
   navMeshLayer: NavMesh

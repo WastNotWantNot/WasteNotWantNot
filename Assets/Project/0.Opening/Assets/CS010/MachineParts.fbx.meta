@@ -1,23 +1,40 @@
 fileFormatVersion: 2
-guid: 8ef7ae6e3a4934fbbbd86fc8cfa37d59
-timeCreated: 1448380223
+guid: 48d9fdf4c0789412d8219d5c1c3cef15
+timeCreated: 1448449755
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: Button_Geo
-    100002: //RootNode
-    100004: Button_ZERO
-    400000: Button_Geo
-    400002: //RootNode
-    400004: Button_ZERO
-    2300000: Button_Geo
-    3300000: Button_Geo
-    4300000: Button_Geo
-    7400000: Button_Anim
+    100000: Conveyor_geo
+    100002: ConveyorBelt_geo
+    100004: //RootNode
+    100006: Pipes_geo
+    100008: WordEnergyLevel_geo
+    100010: WordPowerPump_geo
+    400000: Conveyor_geo
+    400002: ConveyorBelt_geo
+    400004: //RootNode
+    400006: Pipes_geo
+    400008: WordEnergyLevel_geo
+    400010: WordPowerPump_geo
+    2300000: Conveyor_geo
+    2300002: ConveyorBelt_geo
+    2300004: Pipes_geo
+    2300006: WordEnergyLevel_geo
+    2300008: WordPowerPump_geo
+    3300000: Conveyor_geo
+    3300002: ConveyorBelt_geo
+    3300004: Pipes_geo
+    3300006: WordEnergyLevel_geo
+    3300008: WordPowerPump_geo
+    4300000: Pipes_geo
+    4300002: WordPowerPump_geo
+    4300004: WordEnergyLevel_geo
+    4300006: Conveyor_geo
+    4300008: ConveyorBelt_geo
     9500000: //RootNode
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
   animations:
@@ -29,45 +46,13 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 0
+    animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Button_Anim
-      takeName: Take 001
-      firstFrame: 1
-      lastFrame: 36
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Button_ZERO
-        weight: 1
-      - path: Button_ZERO/Button_Geo
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -91,7 +76,7 @@ ModelImporter:
     splitTangentsAcrossUV: 1
     normalImportMode: 0
     tangentImportMode: 1
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     human: []

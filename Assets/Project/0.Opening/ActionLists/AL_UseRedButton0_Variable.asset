@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Name: AL_UseRedButton0_Variable
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 11408618}
+  - {fileID: 11498130}
   - {fileID: 11494684}
-  - {fileID: 11495668}
-  - {fileID: 11413408}
   - {fileID: 11431478}
   - {fileID: 11459406}
   isSkippable: 1
@@ -22,7 +22,7 @@ MonoBehaviour:
   unfreezePauseMenus: 1
   useParameters: 0
   parameters: []
---- !u!114 &11413408
+--- !u!114 &11408618
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -30,16 +30,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b18e13856996b4c9d84b3a4c680d8a75, type: 3}
+  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
   category: 11
-  title: Change material
-  description: Changes the material on any scene-based mesh object.
+  title: Animate
+  description: Causes a GameObject to play or stop an animation, or modify a Blend
+    Shape. The available options will differ depending on the chosen animation engine.
   isDisplayed: 1
   numSockets: 1
-  willWait: 0
+  willWait: 1
   defaultPauseTime: .100000001
   isRunning: 0
   lastResult:
@@ -59,17 +60,34 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 14
+    x: 0
+    y: 0
     width: 300
-    height: 165
+    height: 60
   nodeHeight: 0
-  constantID: 12588
   parameterID: -1
+  constantID: 169634
+  _anim: {fileID: 0}
+  clip: {fileID: 0}
+  fadeTime: 0
+  _anim2D: {fileID: 0}
+  animator: {fileID: 0}
+  clip2D: Button_Anim
+  wrapMode2D: 0
+  layerInt: 0
+  shapeObject: {fileID: 0}
+  shapeKey: 0
+  shapeValue: 0
   isPlayer: 0
-  obToAffect: {fileID: 0}
-  materialIndex: 0
-  newMaterial: {fileID: 2100000, guid: 01ce33361a4944ac2a66b9a05787009a, type: 2}
+  methodMecanim: 1
+  mecanimParameterType: 3
+  parameterName: Button
+  parameterValue: 0
+  method: 0
+  blendMode: 0
+  playMode: 0
+  animationEngine: 3
+  animEngine: {fileID: 0}
 --- !u!114 &11431478
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -256,7 +274,7 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 0
-    skipAction: -1
+    skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -265,7 +283,7 @@ MonoBehaviour:
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 1
+  isEnabled: 0
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
@@ -276,13 +294,13 @@ MonoBehaviour:
     width: 300
     height: 165
   nodeHeight: 0
-  constantID: 12612
+  constantID: 174714
   parameterID: -1
   isPlayer: 0
   obToAffect: {fileID: 0}
   materialIndex: 0
   newMaterial: {fileID: 2100000, guid: 01ce33361a4944ac2a66b9a05787009a, type: 2}
---- !u!114 &11495668
+--- !u!114 &11498130
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -290,13 +308,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b18e13856996b4c9d84b3a4c680d8a75, type: 3}
+  m_Script: {fileID: 11500000, guid: d33593da7d3524e1998da7151086b1b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
   category: 11
-  title: Change material
-  description: Changes the material on any scene-based mesh object.
+  title: Visibility
+  description: Hides or shows a GameObject. Can optionally affect the GameObject's
+    children.
   isDisplayed: 1
   numSockets: 1
   willWait: 0
@@ -319,14 +338,13 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 14
+    x: 0
+    y: 0
     width: 300
-    height: 165
+    height: 60
   nodeHeight: 0
-  constantID: 12600
   parameterID: -1
-  isPlayer: 0
+  constantID: 268280
   obToAffect: {fileID: 0}
-  materialIndex: 0
-  newMaterial: {fileID: 2100000, guid: 01ce33361a4944ac2a66b9a05787009a, type: 2}
+  affectChildren: 1
+  visState: 0

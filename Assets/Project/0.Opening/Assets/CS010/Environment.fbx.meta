@@ -1,23 +1,18 @@
 fileFormatVersion: 2
-guid: 8ef7ae6e3a4934fbbbd86fc8cfa37d59
-timeCreated: 1448380223
+guid: 68eeac4c5bb5b4aff846e604ee046156
+timeCreated: 1448449868
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: Button_Geo
-    100002: //RootNode
-    100004: Button_ZERO
-    400000: Button_Geo
-    400002: //RootNode
-    400004: Button_ZERO
-    2300000: Button_Geo
-    3300000: Button_Geo
-    4300000: Button_Geo
-    7400000: Button_Anim
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Environment_geo
     9500000: //RootNode
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
   animations:
@@ -29,45 +24,13 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 0
+    animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Button_Anim
-      takeName: Take 001
-      firstFrame: 1
-      lastFrame: 36
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Button_ZERO
-        weight: 1
-      - path: Button_ZERO/Button_Geo
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []

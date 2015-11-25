@@ -1,21 +1,26 @@
 fileFormatVersion: 2
-guid: 8ef7ae6e3a4934fbbbd86fc8cfa37d59
-timeCreated: 1448380223
+guid: d58cc703801dc48a4aeb0b2181bc498a
+timeCreated: 1448456517
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: Button_Geo
-    100002: //RootNode
-    100004: Button_ZERO
-    400000: Button_Geo
-    400002: //RootNode
-    400004: Button_ZERO
-    2300000: Button_Geo
-    3300000: Button_Geo
-    4300000: Button_Geo
-    7400000: Button_Anim
+    100000: btn_anim:joint2
+    100002: btn_anim:joint3
+    100004: btn_anim:joint4
+    100006: btn_anim:machine_root
+    100008: Machine_GEO1
+    100010: //RootNode
+    400000: btn_anim:joint2
+    400002: btn_anim:joint3
+    400004: btn_anim:joint4
+    400006: btn_anim:machine_root
+    400008: Machine_GEO1
+    400010: //RootNode
+    4300000: Machine_GEO1
+    7400000: Machine_Idle
     9500000: //RootNode
+    13700000: Machine_GEO1
   materials:
     importMaterials: 0
     materialName: 0
@@ -37,16 +42,16 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Button_Anim
+      name: Machine_Idle
       takeName: Take 001
-      firstFrame: 1
-      lastFrame: 36
+      firstFrame: 48
+      lastFrame: 114
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -62,9 +67,15 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: Button_ZERO
+      - path: btn_anim:machine_root
         weight: 1
-      - path: Button_ZERO/Button_Geo
+      - path: btn_anim:machine_root/btn_anim:joint2
+        weight: 1
+      - path: btn_anim:machine_root/btn_anim:joint2/btn_anim:joint3
+        weight: 1
+      - path: btn_anim:machine_root/btn_anim:joint2/btn_anim:joint3/btn_anim:joint4
+        weight: 1
+      - path: btn_anim:machine_root/Machine_GEO1
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
