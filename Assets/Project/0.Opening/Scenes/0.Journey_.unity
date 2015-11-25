@@ -218,7 +218,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 3228dc237cbef4217b440de9e285970a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -97.7739029
+      value: -97.6949997
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3228dc237cbef4217b440de9e285970a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -226,7 +226,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3228dc237cbef4217b440de9e285970a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: .807699978
+      value: .796999991
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3228dc237cbef4217b440de9e285970a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -252,6 +252,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2a3d289c364fb4350adbac32364fb131, type: 2}
+    - target: {fileID: 100000, guid: 3228dc237cbef4217b440de9e285970a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3228dc237cbef4217b440de9e285970a, type: 3}
   m_IsPrefabParent: 0
@@ -268,7 +272,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: acfee153e2d354368936ae7907790201, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -97.8444977
+      value: -97.7649994
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: acfee153e2d354368936ae7907790201, type: 3}
       propertyPath: m_LocalPosition.y
@@ -276,7 +280,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: acfee153e2d354368936ae7907790201, type: 3}
       propertyPath: m_LocalPosition.z
-      value: .819800019
+      value: .809000015
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: acfee153e2d354368936ae7907790201, type: 3}
       propertyPath: m_LocalRotation.x
@@ -302,6 +306,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2a3d289c364fb4350adbac32364fb131, type: 2}
+    - target: {fileID: 100000, guid: acfee153e2d354368936ae7907790201, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: acfee153e2d354368936ae7907790201, type: 3}
   m_IsPrefabParent: 0
@@ -434,63 +442,6 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 496620, guid: 1454208c86cbf4a9aa937bf1b92ea110, type: 2}
   m_PrefabInternal: {fileID: 939401490}
---- !u!114 &51869231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
-  m_Name: (Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 0
-  title: Run
-  description: Runs any ActionList (either scene-based like Cutscenes, Triggers and
-    Interactions, or ActionList assets). If the new ActionList takes parameters, this
-    Action can be used to set them.
-  isDisplayed: 1
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  nodeHeight: 0
-  listSource: 0
-  actionList: {fileID: 0}
-  invActionList: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  runFromStart: 1
-  jumpToAction: 0
-  jumpToActionParameterID: -1
-  jumpToActionActual: {fileID: 0}
-  runInParallel: 1
-  isSkippable: 0
-  localParameters: []
-  parameterIDs: 
 --- !u!1001 &54612490
 Prefab:
   m_ObjectHideFlags: 0
@@ -553,6 +504,50 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 414410, guid: 6635a4b1e162e4e0eaae6f109520e8bc, type: 2}
   m_PrefabInternal: {fileID: 1478426833}
+--- !u!114 &77106506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 5
+  title: Pause game
+  description: Waits a set time before continuing.
+  isDisplayed: 1
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  parameterID: -1
+  timeToPause: 0
 --- !u!1 &77272378
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,7 +648,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 86430538}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: .0790000036, y: 0, z: -.00999999978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 251016990}
@@ -825,7 +820,7 @@ Prefab:
     - target: {fileID: 11400002, guid: 9c6d82e28b280448ea70b3f4f7011508, type: 2}
       propertyPath: cameraOnStart
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1198454367}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9c6d82e28b280448ea70b3f4f7011508, type: 2}
   m_IsPrefabParent: 0
@@ -1052,7 +1047,7 @@ Prefab:
     - target: {fileID: 11476506, guid: f5e0e654adf96437e86c9a311092e182, type: 2}
       propertyPath: actions.Array.data[0]
       value: 
-      objectReference: {fileID: 1874315723}
+      objectReference: {fileID: 610134431}
     - target: {fileID: 153398, guid: f5e0e654adf96437e86c9a311092e182, type: 2}
       propertyPath: m_Name
       value: 'CS001-CS002: Right'
@@ -1083,7 +1078,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400008, guid: 1654badefd00b48449bf4df62ceab9b0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -97.9700012
+      value: -97.8909988
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 1654badefd00b48449bf4df62ceab9b0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1091,7 +1086,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 1654badefd00b48449bf4df62ceab9b0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: .850000024
+      value: .839999974
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 1654badefd00b48449bf4df62ceab9b0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1234,7 +1229,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: af845f957b3c047aba76d6975d61690f, type: 2}
+  - {fileID: 2100000, guid: f08f29fc068fd4cdf87983639f0a74fd, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1521,7 +1516,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 43262ac9134574dccb188c1d74f3b6fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -97.9238968
+      value: -97.8450012
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 43262ac9134574dccb188c1d74f3b6fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1529,7 +1524,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 43262ac9134574dccb188c1d74f3b6fa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: .867600024
+      value: .856999993
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 43262ac9134574dccb188c1d74f3b6fa, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1580,7 +1575,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 698e407bf8a614936a1c0a51c850c36f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -97.9813004
+      value: -97.9020004
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 698e407bf8a614936a1c0a51c850c36f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1588,7 +1583,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 698e407bf8a614936a1c0a51c850c36f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: .869009972
+      value: .859000027
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 698e407bf8a614936a1c0a51c850c36f, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1614,6 +1609,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2a3d289c364fb4350adbac32364fb131, type: 2}
+    - target: {fileID: 2300000, guid: 698e407bf8a614936a1c0a51c850c36f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 593a625b8c5c44e36b4587f651434036, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 698e407bf8a614936a1c0a51c850c36f, type: 3}
   m_IsPrefabParent: 0
@@ -2480,7 +2479,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 0725b1aea9e7647468480449e1a23fe9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -97.9751968
+      value: -97.8960037
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0725b1aea9e7647468480449e1a23fe9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2488,7 +2487,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0725b1aea9e7647468480449e1a23fe9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: .870500028
+      value: .860000014
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0725b1aea9e7647468480449e1a23fe9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2514,6 +2513,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2a3d289c364fb4350adbac32364fb131, type: 2}
+    - target: {fileID: 2300000, guid: 0725b1aea9e7647468480449e1a23fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 593a625b8c5c44e36b4587f651434036, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0725b1aea9e7647468480449e1a23fe9, type: 3}
   m_IsPrefabParent: 0
@@ -2572,11 +2575,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -97.9805984
+      value: -97.9020004
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.33959997
+      value: 1.33899999
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2620,7 +2623,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
       propertyPath: m_IsActive
@@ -3385,7 +3388,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 942723982}
   m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106709}
-  m_LocalPosition: {x: -97.9700012, y: 1.28799999, z: .850000024}
+  m_LocalPosition: {x: -97.8909988, y: 1.28799999, z: .839999974}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1241561342}
@@ -3402,7 +3405,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 8ef7ae6e3a4934fbbbd86fc8cfa37d59, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -97.9154968
+      value: -97.8359985
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 8ef7ae6e3a4934fbbbd86fc8cfa37d59, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3410,7 +3413,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 8ef7ae6e3a4934fbbbd86fc8cfa37d59, type: 3}
       propertyPath: m_LocalPosition.z
-      value: .869069993
+      value: .859000027
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 8ef7ae6e3a4934fbbbd86fc8cfa37d59, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3436,6 +3439,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2a3d289c364fb4350adbac32364fb131, type: 2}
+    - target: {fileID: 2300000, guid: 8ef7ae6e3a4934fbbbd86fc8cfa37d59, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b2378bad1ddf44612b83e769e19383c4, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8ef7ae6e3a4934fbbbd86fc8cfa37d59, type: 3}
   m_IsPrefabParent: 0
@@ -3443,6 +3450,63 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 8ef7ae6e3a4934fbbbd86fc8cfa37d59, type: 3}
   m_PrefabInternal: {fileID: 608990225}
+--- !u!114 &610134431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 0
+  title: Run
+  description: Runs any ActionList (either scene-based like Cutscenes, Triggers and
+    Interactions, or ActionList assets). If the new ActionList takes parameters, this
+    Action can be used to set them.
+  isDisplayed: 1
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  listSource: 0
+  actionList: {fileID: 0}
+  invActionList: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  runFromStart: 1
+  jumpToAction: 0
+  jumpToActionParameterID: -1
+  jumpToActionActual: {fileID: 0}
+  runInParallel: 1
+  isSkippable: 0
+  localParameters: []
+  parameterIDs: 
 --- !u!1001 &611895132
 Prefab:
   m_ObjectHideFlags: 0
@@ -4278,63 +4342,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &855904903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
-  m_Name: (Clone)(Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 0
-  title: Run
-  description: Runs any ActionList (either scene-based like Cutscenes, Triggers and
-    Interactions, or ActionList assets). If the new ActionList takes parameters, this
-    Action can be used to set them.
-  isDisplayed: 1
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  nodeHeight: 0
-  listSource: 1
-  actionList: {fileID: 0}
-  invActionList: {fileID: 11400000, guid: d7d3b5573061b4734b951d0333260d53, type: 2}
-  constantID: 0
-  parameterID: -1
-  runFromStart: 1
-  jumpToAction: 0
-  jumpToActionParameterID: -1
-  jumpToActionActual: {fileID: 0}
-  runInParallel: 1
-  isSkippable: 0
-  localParameters: []
-  parameterIDs: 
 --- !u!1 &870031612
 GameObject:
   m_ObjectHideFlags: 0
@@ -4411,53 +4418,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 870031612}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &875421979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c47ef24c0855d41f4a4073c476ef37a2, type: 3}
-  m_Name: (Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 5
-  title: End game
-  description: Ends the current game, either by loading an autosave, restarting or
-    quitting the game executable.
-  isDisplayed: 1
-  numSockets: 0
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  nodeHeight: 0
-  endGameType: 3
-  chooseSceneBy: 0
-  sceneNumber: 1
-  sceneName: 
 --- !u!1 &875643704
 GameObject:
   m_ObjectHideFlags: 0
@@ -4486,6 +4446,50 @@ Transform:
   - {fileID: 294603384}
   m_Father: {fileID: 1371359117}
   m_RootOrder: 6
+--- !u!114 &876613802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: (Clone)(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 5
+  title: Pause game
+  description: Waits a set time before continuing.
+  isDisplayed: 1
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  parameterID: -1
+  timeToPause: 0
 --- !u!114 &888142722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4675,6 +4679,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6fbb3057b1cdc4ad597594b5eef2f9c9, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &900162085 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 105980, guid: 6635a4b1e162e4e0eaae6f109520e8bc, type: 2}
+  m_PrefabInternal: {fileID: 1478426833}
+--- !u!114 &900162086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 900162085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 308090
+  retainInPrefab: 0
+  autoManual: 0
 --- !u!114 &903040815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4899,7 +4921,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 8ca33b22a41c748fe80cf162ca1f5e24, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -97.8363037
+      value: -97.7570038
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8ca33b22a41c748fe80cf162ca1f5e24, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4907,7 +4929,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8ca33b22a41c748fe80cf162ca1f5e24, type: 3}
       propertyPath: m_LocalPosition.z
-      value: .819800019
+      value: .809000015
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8ca33b22a41c748fe80cf162ca1f5e24, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4933,6 +4955,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2a3d289c364fb4350adbac32364fb131, type: 2}
+    - target: {fileID: 100000, guid: 8ca33b22a41c748fe80cf162ca1f5e24, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8ca33b22a41c748fe80cf162ca1f5e24, type: 3}
   m_IsPrefabParent: 0
@@ -4940,6 +4966,50 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 8ca33b22a41c748fe80cf162ca1f5e24, type: 3}
   m_PrefabInternal: {fileID: 988415398}
+--- !u!114 &989148391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: (Clone)(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 5
+  title: Wait
+  description: Waits a set time before continuing.
+  isDisplayed: 1
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  parameterID: -1
+  timeToPause: 0
 --- !u!1 &995659102 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
@@ -5002,7 +5072,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: af845f957b3c047aba76d6975d61690f, type: 2}
+  - {fileID: 2100000, guid: e062be5249bf84839bd5f843a07984cf, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -5223,50 +5293,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3666c3ac0a791496b8af842165f840f7, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &1032019244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: (Clone)(Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 5
-  title: Pause game
-  description: Waits a set time before continuing.
-  isDisplayed: 1
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  nodeHeight: 0
-  parameterID: -1
-  timeToPause: 0
 --- !u!1001 &1032021356
 Prefab:
   m_ObjectHideFlags: 0
@@ -5364,8 +5390,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  constantID: 157374
-  retainInPrefab: 0
+  constantID: 15266
+  retainInPrefab: 1
   autoManual: 0
 --- !u!1 &1049538910
 GameObject:
@@ -5390,7 +5416,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1049538910}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: .0790000036, y: 0, z: -.00999999978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2117324894}
@@ -5576,50 +5602,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1064293389}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1067172467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 5
-  title: Pause game
-  description: Waits a set time before continuing.
-  isDisplayed: 1
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  nodeHeight: 0
-  parameterID: -1
-  timeToPause: 0
 --- !u!1 &1075986968
 GameObject:
   m_ObjectHideFlags: 0
@@ -5821,8 +5803,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  constantID: 148050
-  retainInPrefab: 0
+  constantID: 15314
+  retainInPrefab: 1
   autoManual: 0
 --- !u!1 &1149882034
 GameObject:
@@ -5851,6 +5833,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1371359117}
   m_RootOrder: 7
+--- !u!114 &1151801154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: (Clone)(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 5
+  title: Pause game
+  description: Waits a set time before continuing.
+  isDisplayed: 1
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  parameterID: -1
+  timeToPause: 0
 --- !u!1001 &1153223783
 Prefab:
   m_ObjectHideFlags: 0
@@ -6048,6 +6074,91 @@ Transform:
   - {fileID: 1011842525}
   m_Father: {fileID: 0}
   m_RootOrder: 12
+--- !u!1 &1198454365 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+  m_PrefabInternal: {fileID: 1475633760}
+--- !u!4 &1198454366 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+  m_PrefabInternal: {fileID: 1475633760}
+--- !u!114 &1198454367 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11400000, guid: ac8da0983da1047639d0d518a4d05319,
+    type: 2}
+  m_PrefabInternal: {fileID: 1475633760}
+  m_Script: {fileID: 11500000, guid: e2e80c1b0012c4108b659894f7112db7, type: 3}
+--- !u!114 &1198454369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1198454365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 198072
+  retainInPrefab: 0
+  autoManual: 0
+--- !u!114 &1218518119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 0
+  title: Run
+  description: Runs any ActionList (either scene-based like Cutscenes, Triggers and
+    Interactions, or ActionList assets). If the new ActionList takes parameters, this
+    Action can be used to set them.
+  isDisplayed: 1
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  listSource: 0
+  actionList: {fileID: 0}
+  invActionList: {fileID: 0}
+  constantID: 0
+  parameterID: -1
+  runFromStart: 1
+  jumpToAction: 0
+  jumpToActionParameterID: -1
+  jumpToActionActual: {fileID: 0}
+  runInParallel: 1
+  isSkippable: 0
+  localParameters: []
+  parameterIDs: 
 --- !u!4 &1221112275 stripped
 Transform:
   m_PrefabParentObject: {fileID: 449806, guid: 18a420e8bcbc84bc38ee4fcfc01feb01, type: 2}
@@ -6114,7 +6225,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: af845f957b3c047aba76d6975d61690f, type: 2}
+  - {fileID: 2100000, guid: 1234efe150abb41bb94b183366269201, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -6569,6 +6680,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
+--- !u!1 &1359044019 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100008, guid: 1654badefd00b48449bf4df62ceab9b0, type: 3}
+  m_PrefabInternal: {fileID: 166917148}
+--- !u!114 &1359044021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1359044019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 391194
+  retainInPrefab: 0
+  autoManual: 0
 --- !u!1001 &1361888954
 Prefab:
   m_ObjectHideFlags: 0
@@ -6578,7 +6707,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 70f1c24ea1f254ec9b25838b58460fcc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -98.0354004
+      value: -97.9560013
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 70f1c24ea1f254ec9b25838b58460fcc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6586,7 +6715,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 70f1c24ea1f254ec9b25838b58460fcc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: .850000024
+      value: .839999974
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 70f1c24ea1f254ec9b25838b58460fcc, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6612,6 +6741,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2a3d289c364fb4350adbac32364fb131, type: 2}
+    - target: {fileID: 2300000, guid: 70f1c24ea1f254ec9b25838b58460fcc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94ceb3d7cf0ac48dd8d8cca44da27df1, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 70f1c24ea1f254ec9b25838b58460fcc, type: 3}
   m_IsPrefabParent: 0
@@ -6619,6 +6752,53 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 70f1c24ea1f254ec9b25838b58460fcc, type: 3}
   m_PrefabInternal: {fileID: 1361888954}
+--- !u!114 &1364590784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c47ef24c0855d41f4a4073c476ef37a2, type: 3}
+  m_Name: (Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 5
+  title: End game
+  description: Ends the current game, either by loading an autosave, restarting or
+    quitting the game executable.
+  isDisplayed: 1
+  numSockets: 0
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  endGameType: 3
+  chooseSceneBy: 0
+  sceneNumber: 1
+  sceneName: 
 --- !u!1 &1371359116
 GameObject:
   m_ObjectHideFlags: 0
@@ -6685,7 +6865,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: d43a8b9515def4091815338144b32a8c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -97.9943008
+      value: -97.9150009
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d43a8b9515def4091815338144b32a8c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6693,7 +6873,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d43a8b9515def4091815338144b32a8c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: .870299995
+      value: .860000014
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d43a8b9515def4091815338144b32a8c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6719,6 +6899,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2a3d289c364fb4350adbac32364fb131, type: 2}
+    - target: {fileID: 2300000, guid: d43a8b9515def4091815338144b32a8c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 969c3d5a1dd2544bb993f5b75717535d, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d43a8b9515def4091815338144b32a8c, type: 3}
   m_IsPrefabParent: 0
@@ -6749,7 +6933,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1414313333}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: .0790000036, y: 0, z: -.00999999978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1768716125}
@@ -6829,6 +7013,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1371359117}
   m_RootOrder: 2
+--- !u!114 &1433492164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: (Clone)(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 5
+  title: Pause game
+  description: Waits a set time before continuing.
+  isDisplayed: 1
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  parameterID: -1
+  timeToPause: 0
 --- !u!1001 &1438540077
 Prefab:
   m_ObjectHideFlags: 0
@@ -7029,6 +7257,76 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 624cf79b85c964c60828235ce175ae93, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1475633760
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1921434330}
+    m_Modifications:
+    - target: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 17.2999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .0500000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: .129999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -1.62920685e-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+      propertyPath: m_Name
+      value: NavCam 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+      propertyPath: near clip plane
+      value: .00999999978
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+      propertyPath: far clip plane
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+      propertyPath: field of view
+      value: 81.0999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+      propertyPath: orthographic size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+      propertyPath: m_Depth
+      value: -1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1476682555
 GameObject:
   m_ObjectHideFlags: 0
@@ -7164,8 +7462,16 @@ Prefab:
       propertyPath: rightArrow.linkedCutscene
       value: 
       objectReference: {fileID: 165631204}
-    - target: {fileID: 11423676, guid: 6635a4b1e162e4e0eaae6f109520e8bc, type: 2}
-      propertyPath: retainInPrefab
+    - target: {fileID: 105980, guid: 6635a4b1e162e4e0eaae6f109520e8bc, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11477904, guid: 6635a4b1e162e4e0eaae6f109520e8bc, type: 2}
+      propertyPath: rightArrow.isPresent
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11477904, guid: 6635a4b1e162e4e0eaae6f109520e8bc, type: 2}
+      propertyPath: disableHotspots
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7426,6 +7732,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enableOnStart: 0
+--- !u!114 &1533037464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
+  m_Name: (Clone)(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 0
+  title: Run
+  description: Runs any ActionList (either scene-based like Cutscenes, Triggers and
+    Interactions, or ActionList assets). If the new ActionList takes parameters, this
+    Action can be used to set them.
+  isDisplayed: 1
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  listSource: 1
+  actionList: {fileID: 0}
+  invActionList: {fileID: 11400000, guid: d7d3b5573061b4734b951d0333260d53, type: 2}
+  constantID: 0
+  parameterID: -1
+  runFromStart: 1
+  jumpToAction: 0
+  jumpToActionParameterID: -1
+  jumpToActionActual: {fileID: 0}
+  runInParallel: 1
+  isSkippable: 0
+  localParameters: []
+  parameterIDs: 
 --- !u!1 &1535736261
 GameObject:
   m_ObjectHideFlags: 0
@@ -7752,6 +8115,10 @@ Prefab:
     - target: {fileID: 495168, guid: dbe2c4c20a0144bab9bc6703191f9786, type: 2}
       propertyPath: m_RootOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 119622, guid: dbe2c4c20a0144bab9bc6703191f9786, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dbe2c4c20a0144bab9bc6703191f9786, type: 2}
@@ -8118,7 +8485,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c37d2d92a2a844d0e98017a806ff0838, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -97.9667969
+      value: -97.8880005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c37d2d92a2a844d0e98017a806ff0838, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8126,7 +8493,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c37d2d92a2a844d0e98017a806ff0838, type: 3}
       propertyPath: m_LocalPosition.z
-      value: .86917001
+      value: .859000027
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c37d2d92a2a844d0e98017a806ff0838, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8152,6 +8519,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2a3d289c364fb4350adbac32364fb131, type: 2}
+    - target: {fileID: 2300000, guid: c37d2d92a2a844d0e98017a806ff0838, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 593a625b8c5c44e36b4587f651434036, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c37d2d92a2a844d0e98017a806ff0838, type: 3}
   m_IsPrefabParent: 0
@@ -8352,7 +8723,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 2419fe7a8cfc54bf89a525ac7049e67e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -97.9535217
+      value: -97.8740005
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 2419fe7a8cfc54bf89a525ac7049e67e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8360,7 +8731,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 2419fe7a8cfc54bf89a525ac7049e67e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: .870100021
+      value: .860000014
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 2419fe7a8cfc54bf89a525ac7049e67e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8386,6 +8757,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2a3d289c364fb4350adbac32364fb131, type: 2}
+    - target: {fileID: 2300000, guid: 2419fe7a8cfc54bf89a525ac7049e67e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4d06d2fd271e44ea48d9a3bb88267361, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2419fe7a8cfc54bf89a525ac7049e67e, type: 3}
   m_IsPrefabParent: 0
@@ -8397,50 +8772,6 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 462550, guid: 6fbb3057b1cdc4ad597594b5eef2f9c9, type: 2}
   m_PrefabInternal: {fileID: 892829759}
---- !u!114 &1719492033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: (Clone)(Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 5
-  title: Pause game
-  description: Waits a set time before continuing.
-  isDisplayed: 1
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  nodeHeight: 0
-  parameterID: -1
-  timeToPause: 0
 --- !u!1001 &1726222631
 Prefab:
   m_ObjectHideFlags: 0
@@ -8492,53 +8823,29 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11402072, guid: 36d1c332049aa4bcdb6cbe8668cd1d30, type: 2}
+      propertyPath: fadeTexture
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11402072, guid: 36d1c332049aa4bcdb6cbe8668cd1d30, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8188100, guid: 36d1c332049aa4bcdb6cbe8668cd1d30, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 12429284, guid: 36d1c332049aa4bcdb6cbe8668cd1d30, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9267384, guid: 36d1c332049aa4bcdb6cbe8668cd1d30, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 36d1c332049aa4bcdb6cbe8668cd1d30, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &1742417461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: (Clone)(Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 5
-  title: Pause game
-  description: Waits a set time before continuing.
-  isDisplayed: 1
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  nodeHeight: 0
-  parameterID: -1
-  timeToPause: 0
 --- !u!1 &1747087013
 GameObject:
   m_ObjectHideFlags: 0
@@ -9074,7 +9381,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac8da0983da1047639d0d518a4d05319, type: 2}
@@ -9101,50 +9408,6 @@ MonoBehaviour:
   constantID: 37304
   retainInPrefab: 1
   autoManual: 0
---- !u!114 &1843113741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: (Clone)(Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 5
-  title: Wait
-  description: Waits a set time before continuing.
-  isDisplayed: 1
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  nodeHeight: 0
-  parameterID: -1
-  timeToPause: 0
 --- !u!1 &1844850688 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100010, guid: d67bfaac522d84354a1a13efa28f3979, type: 3}
@@ -9204,7 +9467,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 418594, guid: 429b233e928db480cb96c458c66766b1, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -97.9151993
+      value: -97.8367996
       objectReference: {fileID: 0}
     - target: {fileID: 418594, guid: 429b233e928db480cb96c458c66766b1, type: 2}
       propertyPath: m_LocalPosition.y
@@ -9337,63 +9600,6 @@ MonoBehaviour:
   constantID: 31460
   retainInPrefab: 0
   autoManual: 0
---- !u!114 &1874315723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
-  m_Name: (Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 0
-  title: Run
-  description: Runs any ActionList (either scene-based like Cutscenes, Triggers and
-    Interactions, or ActionList assets). If the new ActionList takes parameters, this
-    Action can be used to set them.
-  isDisplayed: 1
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  nodeHeight: 0
-  listSource: 0
-  actionList: {fileID: 0}
-  invActionList: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  runFromStart: 1
-  jumpToAction: 0
-  jumpToActionParameterID: -1
-  jumpToActionActual: {fileID: 0}
-  runInParallel: 1
-  isSkippable: 0
-  localParameters: []
-  parameterIDs: 
 --- !u!1001 &1875328903
 Prefab:
   m_ObjectHideFlags: 0
@@ -9615,6 +9821,7 @@ Transform:
   - {fileID: 2010856601}
   - {fileID: 248248807}
   - {fileID: 1420025805}
+  - {fileID: 1198454366}
   m_Father: {fileID: 34246778}
   m_RootOrder: 0
 --- !u!1001 &1926467448
@@ -9656,6 +9863,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 68eeac4c5bb5b4aff846e604ee046156, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 711936f8a2def4d8eaadfc59541f5e80, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 68eeac4c5bb5b4aff846e604ee046156, type: 3}
   m_IsPrefabParent: 0
@@ -9694,8 +9905,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  constantID: 160698
-  retainInPrefab: 0
+  constantID: 15686
+  retainInPrefab: 1
   autoManual: 0
 --- !u!4 &1952183942 stripped
 Transform:

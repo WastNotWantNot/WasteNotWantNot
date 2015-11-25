@@ -14,8 +14,7 @@ MonoBehaviour:
   actions:
   - {fileID: 11408618}
   - {fileID: 11457394}
-  - {fileID: 11455706}
-  - {fileID: 11494684}
+  - {fileID: 11415298}
   - {fileID: 11431478}
   - {fileID: 11459406}
   isSkippable: 1
@@ -74,6 +73,72 @@ MonoBehaviour:
   _anim2D: {fileID: 0}
   animator: {fileID: 0}
   clip2D: Button_Anim
+  wrapMode2D: 0
+  layerInt: 0
+  shapeObject: {fileID: 0}
+  shapeKey: 0
+  shapeValue: 0
+  isPlayer: 0
+  methodMecanim: 1
+  mecanimParameterType: 3
+  parameterName: Button
+  parameterValue: 0
+  method: 0
+  blendMode: 0
+  playMode: 0
+  animationEngine: 3
+  animEngine: {fileID: 0}
+--- !u!114 &11415298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 11
+  title: Animate
+  description: Causes a GameObject to play or stop an animation, or modify a Blend
+    Shape. The available options will differ depending on the chosen animation engine.
+  isDisplayed: 1
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  parameterID: -1
+  constantID: 391194
+  _anim: {fileID: 0}
+  clip: {fileID: 0}
+  fadeTime: 0
+  _anim2D: {fileID: 0}
+  animator: {fileID: 0}
+  clip2D: Machine_Anim
   wrapMode2D: 0
   layerInt: 0
   shapeObject: {fileID: 0}
@@ -205,54 +270,6 @@ MonoBehaviour:
   boolCondition: 0
   stringValue: 
   location: 0
---- !u!114 &11455706
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fadbe8a8547c845659eb5618f68e5019, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 6
-  title: Change interaction
-  description: Enables and disables individual Interactions on a Hotspot.
-  isDisplayed: 1
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 1
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  nodeHeight: 0
-  parameterID: -1
-  constantID: 0
-  hotspot: {fileID: 0}
-  interactionType: 0
-  changeType: 0
-  number: 0
 --- !u!114 &11457394
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -354,51 +371,3 @@ MonoBehaviour:
   interactionType: 0
   changeType: 0
   number: 1
---- !u!114 &11494684
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b18e13856996b4c9d84b3a4c680d8a75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 11
-  title: Change material
-  description: Changes the material on any scene-based mesh object.
-  isDisplayed: 1
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 0
-  isAssetFile: 1
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 165
-  nodeHeight: 0
-  constantID: 174714
-  parameterID: -1
-  isPlayer: 0
-  obToAffect: {fileID: 0}
-  materialIndex: 0
-  newMaterial: {fileID: 2100000, guid: 01ce33361a4944ac2a66b9a05787009a, type: 2}

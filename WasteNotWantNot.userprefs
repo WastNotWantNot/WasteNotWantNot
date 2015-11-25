@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AdventureCreator/Scripts/Logic/ArrowPrompt.cs">
     <Files>
-      <File FileName="Assets/AdventureCreator/Scripts/Static/Tags.cs" Line="27" Column="42" />
-      <File FileName="Assets/AdventureCreator/Scripts/Logic/ArrowPrompt.cs" Line="46" Column="1" />
+      <File FileName="Assets/AdventureCreator/Scripts/Static/Tags.cs" Line="28" Column="45" />
+      <File FileName="Assets/AdventureCreator/Scripts/Logic/ArrowPrompt.cs" Line="46" Column="83" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
