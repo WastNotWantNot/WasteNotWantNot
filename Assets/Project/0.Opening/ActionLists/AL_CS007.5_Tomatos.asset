@@ -45,7 +45,7 @@ MonoBehaviour:
   description: Sends a given message to a GameObject. Can be either a message commonly-used
     by Adventure Creator (Interact, TurnOn, etc) or a custom one, with an integer
     argument.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -98,7 +98,7 @@ MonoBehaviour:
   description: Sends a given message to a GameObject. Can be either a message commonly-used
     by Adventure Creator (Interact, TurnOn, etc) or a custom one, with an integer
     argument.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -283,7 +283,7 @@ MonoBehaviour:
   description: Sends a given message to a GameObject. Can be either a message commonly-used
     by Adventure Creator (Interact, TurnOn, etc) or a custom one, with an integer
     argument.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -586,7 +586,7 @@ MonoBehaviour:
   description: Sends a given message to a GameObject. Can be either a message commonly-used
     by Adventure Creator (Interact, TurnOn, etc) or a custom one, with an integer
     argument.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
