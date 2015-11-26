@@ -326,7 +326,6 @@
      <Compile Include="Assets\AdventureCreator\Scripts\Variables\RuntimeVariables.cs" />
      <Compile Include="Assets\AdventureCreator\Scripts\Variables\VarPreset.cs" />
      <None Include="Assets\AdventureCreator\Graphics\Fonts\SIL Open Font License.txt" />
-     <None Include="Assets\Project\New Text Document.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

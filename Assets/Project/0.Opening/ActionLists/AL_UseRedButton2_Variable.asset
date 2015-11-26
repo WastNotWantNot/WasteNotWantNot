@@ -16,7 +16,6 @@ MonoBehaviour:
   - {fileID: 11462180}
   - {fileID: 11496718}
   - {fileID: 11403770}
-  - {fileID: 11418922}
   - {fileID: 11430774}
   - {fileID: 11444148}
   - {fileID: 11431024}
@@ -138,7 +137,7 @@ MonoBehaviour:
   title: Animate
   description: Causes a GameObject to play or stop an animation, or modify a Blend
     Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -166,7 +165,7 @@ MonoBehaviour:
     height: 60
   nodeHeight: 0
   parameterID: -1
-  constantID: 157374
+  constantID: 15266
   _anim: {fileID: 0}
   clip: {fileID: 0}
   fadeTime: 0
@@ -204,7 +203,7 @@ MonoBehaviour:
   title: Animate
   description: Causes a GameObject to play or stop an animation, or modify a Blend
     Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -232,7 +231,7 @@ MonoBehaviour:
     height: 60
   nodeHeight: 0
   parameterID: -1
-  constantID: 148050
+  constantID: 885354
   _anim: {fileID: 0}
   clip: {fileID: 0}
   fadeTime: 0
@@ -270,7 +269,7 @@ MonoBehaviour:
   title: Animate
   description: Causes a GameObject to play or stop an animation, or modify a Blend
     Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -298,79 +297,13 @@ MonoBehaviour:
     height: 60
   nodeHeight: 0
   parameterID: -1
-  constantID: 160698
+  constantID: 15686
   _anim: {fileID: 0}
   clip: {fileID: 0}
   fadeTime: 0
   _anim2D: {fileID: 0}
   animator: {fileID: 0}
   clip2D: TomatoBunch_3_Anim
-  wrapMode2D: 0
-  layerInt: 0
-  shapeObject: {fileID: 0}
-  shapeKey: 0
-  shapeValue: 0
-  isPlayer: 0
-  methodMecanim: 1
-  mecanimParameterType: 3
-  parameterName: 
-  parameterValue: 0
-  method: 0
-  blendMode: 0
-  playMode: 0
-  animationEngine: 3
-  animEngine: {fileID: 0}
---- !u!114 &11418922
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 11
-  title: Animate
-  description: Causes a GameObject to play or stop an animation, or modify a Blend
-    Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 1
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 1
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  nodeHeight: 0
-  parameterID: -1
-  constantID: 100370
-  _anim: {fileID: 0}
-  clip: {fileID: 0}
-  fadeTime: 0
-  _anim2D: {fileID: 0}
-  animator: {fileID: 0}
-  clip2D: Machine_Anim
   wrapMode2D: 0
   layerInt: 0
   shapeObject: {fileID: 0}
@@ -449,7 +382,7 @@ MonoBehaviour:
   category: 5
   title: Wait
   description: Waits a set time before continuing.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -699,12 +632,12 @@ MonoBehaviour:
   defaultPauseTime: .100000001
   isRunning: 0
   lastResult:
-    resultAction: 1
+    resultAction: 0
     skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
-  endAction: 1
+  endAction: 0
   skipAction: -1
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
@@ -722,7 +655,7 @@ MonoBehaviour:
   nodeHeight: 0
   listSource: 1
   actionList: {fileID: 0}
-  invActionList: {fileID: 11400000, guid: b7509138e82094775a2836469a8b239f, type: 2}
+  invActionList: {fileID: 11400000, guid: c1c9bd7963f334cf2b3bc168cc454466, type: 2}
   constantID: 0
   parameterID: -1
   runFromStart: 1
@@ -1000,7 +933,7 @@ MonoBehaviour:
   title: Animate
   description: Causes a GameObject to play or stop an animation, or modify a Blend
     Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001

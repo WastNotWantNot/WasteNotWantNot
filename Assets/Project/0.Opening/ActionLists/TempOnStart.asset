@@ -107,7 +107,7 @@ MonoBehaviour:
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 0
+  isEnabled: 1
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
@@ -173,7 +173,7 @@ MonoBehaviour:
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 0
+  isEnabled: 1
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
@@ -281,7 +281,7 @@ MonoBehaviour:
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 1
+  isEnabled: 0
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
