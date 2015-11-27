@@ -728,7 +728,7 @@ MonoBehaviour:
   description: Runs any subsequent Actions (whether in the same list or in a new one)
     simultaneously. This is useful when making complex cutscenes that require timing
     to be exact.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
