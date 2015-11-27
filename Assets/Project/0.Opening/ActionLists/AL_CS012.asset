@@ -12,16 +12,147 @@ MonoBehaviour:
   m_Name: AL_CS012
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 11423744}
-  - {fileID: 11401958}
-  - {fileID: 11470954}
-  - {fileID: 11452214}
+  - {fileID: 11498386}
+  - {fileID: 11479534}
+  - {fileID: 11468232}
   isSkippable: 1
   actionListType: 0
   unfreezePauseMenus: 1
   useParameters: 0
   parameters: []
---- !u!114 &11401958
+--- !u!114 &11468232
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 11
+  title: Animate
+  description: Causes a GameObject to play or stop an animation, or modify a Blend
+    Shape. The available options will differ depending on the chosen animation engine.
+  isDisplayed: 1
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  parameterID: -1
+  constantID: 57394
+  _anim: {fileID: 0}
+  clip: {fileID: 7400000, guid: c1f52e60e9887479f859732eb8269b78, type: 2}
+  fadeTime: 0
+  _anim2D: {fileID: 0}
+  animator: {fileID: 0}
+  clip2D: FallingTomato
+  wrapMode2D: 0
+  layerInt: 0
+  shapeObject: {fileID: 0}
+  shapeKey: 0
+  shapeValue: 0
+  isPlayer: 0
+  methodMecanim: 0
+  mecanimParameterType: 0
+  parameterName: 
+  parameterValue: 0
+  method: 0
+  blendMode: 0
+  playMode: 0
+  animationEngine: 2
+  animEngine: {fileID: 0}
+--- !u!114 &11479534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 11
+  title: Animate
+  description: Causes a GameObject to play or stop an animation, or modify a Blend
+    Shape. The available options will differ depending on the chosen animation engine.
+  isDisplayed: 1
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  parameterID: -1
+  constantID: 39422
+  _anim: {fileID: 0}
+  clip: {fileID: 7400000, guid: c1f52e60e9887479f859732eb8269b78, type: 2}
+  fadeTime: 0
+  _anim2D: {fileID: 0}
+  animator: {fileID: 0}
+  clip2D: Test
+  wrapMode2D: 0
+  layerInt: 0
+  shapeObject: {fileID: 0}
+  shapeKey: 0
+  shapeValue: 0
+  isPlayer: 0
+  methodMecanim: 0
+  mecanimParameterType: 0
+  parameterName: 
+  parameterValue: 0
+  method: 0
+  blendMode: 0
+  playMode: 0
+  animationEngine: 2
+  animEngine: {fileID: 0}
+--- !u!114 &11498386
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -86,185 +217,3 @@ MonoBehaviour:
     m_PostInfinity: 2
   moveMethod: 0
   returnToLast: 0
---- !u!114 &11423744
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 9
-  title: Change state
-  description: Provides various options to show and hide both menus and menu elements.
-  isDisplayed: 0
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 0
-  isAssetFile: 1
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  nodeHeight: 0
-  changeType: 1
-  menuToChange: DoNotTouch
-  menuToChangeParameterID: -1
-  elementToChange: 
-  elementToChangeParameterID: -1
-  journalText: 
-  onlyAddNewJournal: 0
-  doFade: 0
-  lineID: -1
---- !u!114 &11452214
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23cea76e14804ca49ce03fec05afd8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 1
-  title: Switch
-  description: Moves the MainCamera to the position, rotation and field of view of
-    a specified GameCamera. Can be instantaneous or transition over time.
-  isDisplayed: 0
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 11400000, guid: 36e021cdd2f7848b2872edd85ae2d061, type: 2}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 11400000, guid: 36e021cdd2f7848b2872edd85ae2d061, type: 2}
-  isEnabled: 1
-  isAssetFile: 1
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  nodeHeight: 0
-  constantID: 94392
-  parameterID: -1
-  linkedCamera: {fileID: 0}
-  transitionTime: 0
-  transitionTimeParameterID: -1
-  timeCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  moveMethod: 0
-  returnToLast: 0
---- !u!114 &11470954
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 11
-  title: Animate
-  description: Causes a GameObject to play or stop an animation, or modify a Blend
-    Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 0
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 0
-  isAssetFile: 1
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 300
-    height: 60
-  nodeHeight: 0
-  parameterID: -1
-  constantID: 39422
-  _anim: {fileID: 0}
-  clip: {fileID: 7400000, guid: c1f52e60e9887479f859732eb8269b78, type: 2}
-  fadeTime: 0
-  _anim2D: {fileID: 0}
-  animator: {fileID: 0}
-  clip2D: TomCam
-  wrapMode2D: 0
-  layerInt: 0
-  shapeObject: {fileID: 0}
-  shapeKey: 0
-  shapeValue: 0
-  isPlayer: 0
-  methodMecanim: 0
-  mecanimParameterType: 0
-  parameterName: 
-  parameterValue: 0
-  method: 0
-  blendMode: 0
-  playMode: 0
-  animationEngine: 2
-  animEngine: {fileID: 0}
