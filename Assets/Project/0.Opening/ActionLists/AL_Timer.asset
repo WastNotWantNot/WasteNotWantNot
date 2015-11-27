@@ -397,7 +397,7 @@ MonoBehaviour:
     height: 60
   nodeHeight: 0
   parameterID: -1
-  timeToPause: 10
+  timeToPause: 2
 --- !u!114 &11492552
 MonoBehaviour:
   m_ObjectHideFlags: 1

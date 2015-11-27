@@ -37,46 +37,59 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a2939986460a4f0880aade1a8dc3622, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a591f7b5e6a44342981865c5d417d91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   arrowPromptType: 2
   upArrow:
     isPresent: 0
-    texture: {fileID: 2800000, guid: 13a1ccfbbd7634b4e9bac1cf83c3297e, type: 3}
+    texture: {fileID: 0}
     linkedCutscene: {fileID: 0}
     rect:
+      serializedVersion: 2
       x: 0
       y: 0
       width: 0
       height: 0
+    Xpos: 0
+    Ypos: 0
   downArrow:
     isPresent: 0
-    texture: {fileID: 2800000, guid: 403c7131fd05444f0af1c292d633a330, type: 3}
+    texture: {fileID: 0}
     linkedCutscene: {fileID: 0}
     rect:
+      serializedVersion: 2
       x: 0
       y: 0
       width: 0
       height: 0
+    Xpos: 0
+    Ypos: 0
   leftArrow:
     isPresent: 0
-    texture: {fileID: 2800000, guid: ef118e99a62af4f05ad8c9f331a04f27, type: 3}
+    texture: {fileID: 0}
     linkedCutscene: {fileID: 0}
     rect:
+      serializedVersion: 2
       x: 0
       y: 0
       width: 0
       height: 0
+    Xpos: 0
+    Ypos: 0
   rightArrow:
     isPresent: 0
-    texture: {fileID: 2800000, guid: 9786f1ddb7b7b43ef8de7dbc95b78bb1, type: 3}
+    texture: {fileID: 0}
     linkedCutscene: {fileID: 0}
     rect:
+      serializedVersion: 2
       x: 0
       y: 0
       width: 0
       height: 0
+    Xpos: 0
+    Ypos: 0
+  disableHotspots: 1
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1

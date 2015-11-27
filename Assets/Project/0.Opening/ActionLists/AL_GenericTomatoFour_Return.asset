@@ -36,7 +36,7 @@ MonoBehaviour:
   title: Animate
   description: Causes a GameObject to play or stop an animation, or modify a Blend
     Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -108,7 +108,7 @@ MonoBehaviour:
     2 + 3 *4), which can also include tokens of the form [var:ID] to denote the value
     of a Variable, where ID is the unique number given to a Variable in the Variables
     Manager.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
