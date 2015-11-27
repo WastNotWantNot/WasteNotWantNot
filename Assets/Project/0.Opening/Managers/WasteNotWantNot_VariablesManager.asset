@@ -22,6 +22,17 @@ MonoBehaviour:
     link: 0
     pmVar: 
     updateLinkOnStart: 0
+    isEditing: 0
+  - label: Test
+    id: 1
+    type: 1
+    val: 0
+    floatVal: 0
+    textVal: 
+    popUps: []
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
     isEditing: 1
   varPresets: []
   updateRuntime: 1
