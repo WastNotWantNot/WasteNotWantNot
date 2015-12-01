@@ -13,10 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 11473910}
-  - {fileID: 11483764}
   - {fileID: 11458752}
+  - {fileID: 11483764}
   isSkippable: 1
-  actionListType: 1
+  actionListType: 0
   unfreezePauseMenus: 1
   useParameters: 0
   parameters:
@@ -87,8 +87,8 @@ MonoBehaviour:
   setVarMethodString: 0
   setVarMethodIntBool: 0
   parameterID: -1
-  variableID: 1
-  variableNumber: 1
+  variableID: 2
+  variableNumber: 2
   setParameterID: -1
   slotNumber: 0
   slotNumberParameterID: -1
@@ -192,7 +192,7 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 0
-    skipAction: -1
+    skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -201,7 +201,7 @@ MonoBehaviour:
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 1
+  isEnabled: 0
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0

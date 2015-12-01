@@ -42,7 +42,7 @@ MonoBehaviour:
     2 + 3 *4), which can also include tokens of the form [var:ID] to denote the value
     of a Variable, where ID is the unique number given to a Variable in the Variables
     Manager.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -73,8 +73,8 @@ MonoBehaviour:
   setVarMethodString: 0
   setVarMethodIntBool: 0
   parameterID: -1
-  variableID: 1
-  variableNumber: 1
+  variableID: 5
+  variableNumber: 5
   setParameterID: -1
   slotNumber: 0
   slotNumberParameterID: -1

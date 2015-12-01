@@ -37,7 +37,7 @@ MonoBehaviour:
   description: Sends a given message to a GameObject. Can be either a message commonly-used
     by Adventure Creator (Interact, TurnOn, etc) or a custom one, with an integer
     argument.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -89,7 +89,7 @@ MonoBehaviour:
   title: Animate
   description: Causes a GameObject to play or stop an animation, or modify a Blend
     Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -161,7 +161,7 @@ MonoBehaviour:
     2 + 3 *4), which can also include tokens of the form [var:ID] to denote the value
     of a Variable, where ID is the unique number given to a Variable in the Variables
     Manager.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -192,8 +192,8 @@ MonoBehaviour:
   setVarMethodString: 0
   setVarMethodIntBool: 0
   parameterID: -1
-  variableID: 1
-  variableNumber: 1
+  variableID: 6
+  variableNumber: 6
   setParameterID: -1
   slotNumber: 0
   slotNumberParameterID: -1

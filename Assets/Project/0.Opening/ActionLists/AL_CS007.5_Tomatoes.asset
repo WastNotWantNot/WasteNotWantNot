@@ -25,8 +25,16 @@ MonoBehaviour:
   - {fileID: 11467790}
   - {fileID: 11439970}
   - {fileID: 11488078}
-  - {fileID: 11457106}
+  - {fileID: 11497586}
+  - {fileID: 11464388}
+  - {fileID: 11491862}
+  - {fileID: 11457164}
+  - {fileID: 11499426}
   - {fileID: 11427358}
+  - {fileID: 11487292}
+  - {fileID: 11487444}
+  - {fileID: 11438134}
+  - {fileID: 11488168}
   isSkippable: 1
   actionListType: 1
   unfreezePauseMenus: 1
@@ -60,7 +68,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 0
-  skipAction: 5
+  skipAction: 4
   skipActionActual: {fileID: 11440968}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -71,7 +79,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 388
+    y: 116
     width: 300
     height: 21
   nodeHeight: 0
@@ -115,7 +123,7 @@ MonoBehaviour:
   description: Sends a given message to a GameObject. Can be either a message commonly-used
     by Adventure Creator (Interact, TurnOn, etc) or a custom one, with an integer
     argument.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -128,7 +136,7 @@ MonoBehaviour:
     linkedAsset: {fileID: 0}
   endAction: 0
   skipAction: 10
-  skipActionActual: {fileID: 0}
+  skipActionActual: {fileID: 11467790}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -138,9 +146,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 643
+    y: 371
     width: 300
-    height: 165
+    height: 21
   nodeHeight: 0
   constantID: 56812
   parameterID: -1
@@ -174,7 +182,7 @@ MonoBehaviour:
   defaultPauseTime: .100000001
   isRunning: 0
   lastResult:
-    resultAction: 3
+    resultAction: 0
     skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
@@ -184,30 +192,30 @@ MonoBehaviour:
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 1
+  isEnabled: 0
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 365
+    y: 691
     width: 300
-    height: 60
+    height: 158
   nodeHeight: 0
-  resultActionTrue: 3
-  skipActionTrue: -1
-  skipActionTrueActual: {fileID: 0}
+  resultActionTrue: 2
+  skipActionTrue: 13
+  skipActionTrueActual: {fileID: 11497586}
   linkedCutsceneTrue: {fileID: 0}
-  linkedAssetTrue: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
+  linkedAssetTrue: {fileID: 11400000, guid: 9be4344bf522c4b16a3b34b6a5c26c60, type: 2}
   resultActionFail: 0
   skipActionFail: -1
   skipActionFailActual: {fileID: 0}
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
   parameterID: -1
-  variableID: 1
-  variableNumber: 1
+  variableID: 2
+  variableNumber: 2
   checkParameterID: -1
   getVarMethod: 0
   compareVariableID: 0
@@ -215,7 +223,7 @@ MonoBehaviour:
   floatValue: 0
   intCondition: 3
   isAdditive: 0
-  boolValue: 1
+  boolValue: 0
   boolCondition: 0
   stringValue: 
   location: 0
@@ -249,7 +257,7 @@ MonoBehaviour:
     linkedAsset: {fileID: 0}
   endAction: 0
   skipAction: 10
-  skipActionActual: {fileID: 0}
+  skipActionActual: {fileID: 11467790}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -259,9 +267,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 643
+    y: 473
     width: 300
-    height: 165
+    height: 21
   nodeHeight: 0
   constantID: 57706
   parameterID: -1
@@ -301,7 +309,7 @@ MonoBehaviour:
     linkedAsset: {fileID: 0}
   endAction: 0
   skipAction: 8
-  skipActionActual: {fileID: 0}
+  skipActionActual: {fileID: 11446896}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -311,7 +319,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 541
+    y: 320
     width: 300
     height: 21
   nodeHeight: 0
@@ -382,6 +390,74 @@ MonoBehaviour:
   nodeHeight: 0
   commentText: Play Animation for tomatos flying in the air
   outputToDebugger: 0
+--- !u!114 &11438134
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdaacaae7eb224bd2b2b6d336bb7b1a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 16
+  title: Check
+  description: Queries the value of both Global and Local Variables declared in the
+    Variables Manager. Variables can be compared with a fixed value, or with the values
+    of other Variables.
+  isDisplayed: 0
+  numSockets: 2
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 0
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 364
+    y: 1471
+    width: 300
+    height: 158
+  nodeHeight: 0
+  resultActionTrue: 3
+  skipActionTrue: -1
+  skipActionTrueActual: {fileID: 0}
+  linkedCutsceneTrue: {fileID: 0}
+  linkedAssetTrue: {fileID: 11400000, guid: 7dab9d15becf143bbb9c9c78393cedc4, type: 2}
+  resultActionFail: 0
+  skipActionFail: -1
+  skipActionFailActual: {fileID: 0}
+  linkedCutsceneFail: {fileID: 0}
+  linkedAssetFail: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
+  parameterID: -1
+  variableID: 5
+  variableNumber: 5
+  checkParameterID: -1
+  getVarMethod: 0
+  compareVariableID: 0
+  intValue: 1
+  floatValue: 0
+  intCondition: 3
+  isAdditive: 0
+  boolValue: 0
+  boolCondition: 0
+  stringValue: 
+  location: 0
 --- !u!114 &11439970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -412,7 +488,7 @@ MonoBehaviour:
     linkedAsset: {fileID: 0}
   endAction: 0
   skipAction: 10
-  skipActionActual: {fileID: 0}
+  skipActionActual: {fileID: 11467790}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -422,9 +498,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 643
+    y: 575
     width: 300
-    height: 165
+    height: 21
   nodeHeight: 0
   constantID: 53454
   parameterID: -1
@@ -463,7 +539,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 0
-  skipAction: 6
+  skipAction: 5
   skipActionActual: {fileID: 11464024}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -474,7 +550,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 439
+    y: 218
     width: 300
     height: 21
   nodeHeight: 0
@@ -596,7 +672,7 @@ MonoBehaviour:
     linkedAsset: {fileID: 0}
   endAction: 0
   skipAction: 10
-  skipActionActual: {fileID: 0}
+  skipActionActual: {fileID: 11467790}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -606,9 +682,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 643
+    y: 422
     width: 300
-    height: 165
+    height: 21
   nodeHeight: 0
   constantID: 58482
   parameterID: -1
@@ -619,7 +695,7 @@ MonoBehaviour:
   sendValue: 0
   customValue: 0
   ignoreWhenSkipping: 0
---- !u!114 &11457106
+--- !u!114 &11457164
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -627,29 +703,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdaacaae7eb224bd2b2b6d336bb7b1a8, type: 3}
+  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
-  category: 16
-  title: Check
-  description: Queries the value of both Global and Local Variables declared in the
-    Variables Manager. Variables can be compared with a fixed value, or with the values
-    of other Variables.
-  isDisplayed: 1
-  numSockets: 2
+  category: 11
+  title: Animate
+  description: Causes a GameObject to play or stop an animation, or modify a Blend
+    Shape. The available options will differ depending on the chosen animation engine.
+  isDisplayed: 0
+  numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
   isRunning: 0
   lastResult:
-    resultAction: 3
+    resultAction: 0
     skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 11400000, guid: 05ee8f823ff61467abcf5d05fae1eb17, type: 2}
+    linkedAsset: {fileID: 0}
   endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  skipAction: 5
+  skipActionActual: {fileID: 11464024}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -658,35 +733,34 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 830
     width: 300
-    height: 60
+    height: 21
   nodeHeight: 0
-  resultActionTrue: 3
-  skipActionTrue: -1
-  skipActionTrueActual: {fileID: 0}
-  linkedCutsceneTrue: {fileID: 0}
-  linkedAssetTrue: {fileID: 11400000, guid: 05ee8f823ff61467abcf5d05fae1eb17, type: 2}
-  resultActionFail: 0
-  skipActionFail: -1
-  skipActionFailActual: {fileID: 0}
-  linkedCutsceneFail: {fileID: 0}
-  linkedAssetFail: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
   parameterID: -1
-  variableID: 1
-  variableNumber: 1
-  checkParameterID: -1
-  getVarMethod: 0
-  compareVariableID: 0
-  intValue: 1
-  floatValue: 0
-  intCondition: 2
-  isAdditive: 0
-  boolValue: 1
-  boolCondition: 0
-  stringValue: 
-  location: 0
+  constantID: 88830
+  _anim: {fileID: 0}
+  clip: {fileID: 7400000, guid: c1f52e60e9887479f859732eb8269b78, type: 2}
+  fadeTime: 0
+  _anim2D: {fileID: 0}
+  animator: {fileID: 0}
+  clip2D: TomatoFive_Out
+  wrapMode2D: 0
+  layerInt: 0
+  shapeObject: {fileID: 0}
+  shapeKey: 0
+  shapeValue: 0
+  isPlayer: 0
+  methodMecanim: 0
+  mecanimParameterType: 0
+  parameterName: 
+  parameterValue: 0
+  method: 0
+  blendMode: 0
+  playMode: 0
+  animationEngine: 2
+  animEngine: {fileID: 0}
 --- !u!114 &11464024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -715,7 +789,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 0
-  skipAction: 7
+  skipAction: 6
   skipActionActual: {fileID: 11434066}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -726,7 +800,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 490
+    y: 269
     width: 300
     height: 21
   nodeHeight: 0
@@ -738,6 +812,72 @@ MonoBehaviour:
   _anim2D: {fileID: 0}
   animator: {fileID: 0}
   clip2D: TomatoFourUp
+  wrapMode2D: 0
+  layerInt: 0
+  shapeObject: {fileID: 0}
+  shapeKey: 0
+  shapeValue: 0
+  isPlayer: 0
+  methodMecanim: 0
+  mecanimParameterType: 0
+  parameterName: 
+  parameterValue: 0
+  method: 0
+  blendMode: 0
+  playMode: 0
+  animationEngine: 2
+  animEngine: {fileID: 0}
+--- !u!114 &11464388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 11
+  title: Animate
+  description: Causes a GameObject to play or stop an animation, or modify a Blend
+    Shape. The available options will differ depending on the chosen animation engine.
+  isDisplayed: 0
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: 5
+  skipActionActual: {fileID: 11464024}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 728
+    width: 300
+    height: 21
+  nodeHeight: 0
+  parameterID: -1
+  constantID: 89172
+  _anim: {fileID: 0}
+  clip: {fileID: 7400000, guid: c1f52e60e9887479f859732eb8269b78, type: 2}
+  fadeTime: 0
+  _anim2D: {fileID: 0}
+  animator: {fileID: 0}
+  clip2D: TomatoThree_Out
   wrapMode2D: 0
   layerInt: 0
   shapeObject: {fileID: 0}
@@ -783,7 +923,7 @@ MonoBehaviour:
     linkedAsset: {fileID: 0}
   endAction: 0
   skipAction: 10
-  skipActionActual: {fileID: 0}
+  skipActionActual: {fileID: 11467790}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -793,9 +933,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 643
+    y: 524
     width: 300
-    height: 165
+    height: 21
   nodeHeight: 0
   constantID: 54406
   parameterID: -1
@@ -806,6 +946,142 @@ MonoBehaviour:
   sendValue: 0
   customValue: 0
   ignoreWhenSkipping: 0
+--- !u!114 &11487292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdaacaae7eb224bd2b2b6d336bb7b1a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 16
+  title: Check
+  description: Queries the value of both Global and Local Variables declared in the
+    Variables Manager. Variables can be compared with a fixed value, or with the values
+    of other Variables.
+  isDisplayed: 1
+  numSockets: 2
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 0
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 364
+    y: 1369
+    width: 300
+    height: 21
+  nodeHeight: 0
+  resultActionTrue: 3
+  skipActionTrue: -1
+  skipActionTrueActual: {fileID: 0}
+  linkedCutsceneTrue: {fileID: 0}
+  linkedAssetTrue: {fileID: 11400000, guid: e0bae8b8dbbd94bf4b338f35af2c26a2, type: 2}
+  resultActionFail: 0
+  skipActionFail: -1
+  skipActionFailActual: {fileID: 0}
+  linkedCutsceneFail: {fileID: 0}
+  linkedAssetFail: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
+  parameterID: -1
+  variableID: 3
+  variableNumber: 3
+  checkParameterID: -1
+  getVarMethod: 0
+  compareVariableID: 0
+  intValue: 1
+  floatValue: 0
+  intCondition: 3
+  isAdditive: 0
+  boolValue: 0
+  boolCondition: 0
+  stringValue: 
+  location: 0
+--- !u!114 &11487444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdaacaae7eb224bd2b2b6d336bb7b1a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 16
+  title: Check
+  description: Queries the value of both Global and Local Variables declared in the
+    Variables Manager. Variables can be compared with a fixed value, or with the values
+    of other Variables.
+  isDisplayed: 0
+  numSockets: 2
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 0
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 364
+    y: 1420
+    width: 300
+    height: 21
+  nodeHeight: 0
+  resultActionTrue: 3
+  skipActionTrue: -1
+  skipActionTrueActual: {fileID: 0}
+  linkedCutsceneTrue: {fileID: 0}
+  linkedAssetTrue: {fileID: 11400000, guid: 11c1eea0dca75459890578be3cc55b3c, type: 2}
+  resultActionFail: 0
+  skipActionFail: -1
+  skipActionFailActual: {fileID: 0}
+  linkedCutsceneFail: {fileID: 0}
+  linkedAssetFail: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
+  parameterID: -1
+  variableID: 4
+  variableNumber: 4
+  checkParameterID: -1
+  getVarMethod: 0
+  compareVariableID: 0
+  intValue: 1
+  floatValue: 0
+  intCondition: 3
+  isAdditive: 0
+  boolValue: 0
+  boolCondition: 0
+  stringValue: 
+  location: 0
 --- !u!114 &11488078
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -821,7 +1097,7 @@ MonoBehaviour:
   category: 5
   title: Wait
   description: Waits a set time before continuing.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -833,8 +1109,8 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
   endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  skipAction: 13
+  skipActionActual: {fileID: 11497586}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
   isEnabled: 1
@@ -843,14 +1119,82 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 626
     width: 300
-    height: 60
+    height: 21
   nodeHeight: 0
   parameterID: -1
   timeToPause: 5
---- !u!114 &11497444
+--- !u!114 &11488168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdaacaae7eb224bd2b2b6d336bb7b1a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 16
+  title: Check
+  description: Queries the value of both Global and Local Variables declared in the
+    Variables Manager. Variables can be compared with a fixed value, or with the values
+    of other Variables.
+  isDisplayed: 0
+  numSockets: 2
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 0
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 364
+    y: 1659
+    width: 300
+    height: 158
+  nodeHeight: 0
+  resultActionTrue: 3
+  skipActionTrue: -1
+  skipActionTrueActual: {fileID: 0}
+  linkedCutsceneTrue: {fileID: 0}
+  linkedAssetTrue: {fileID: 11400000, guid: bb3ee9c9673c44ecd98f8bfed3b50ee8, type: 2}
+  resultActionFail: 0
+  skipActionFail: -1
+  skipActionFailActual: {fileID: 0}
+  linkedCutsceneFail: {fileID: 0}
+  linkedAssetFail: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
+  parameterID: -1
+  variableID: 6
+  variableNumber: 6
+  checkParameterID: -1
+  getVarMethod: 0
+  compareVariableID: 0
+  intValue: 1
+  floatValue: 0
+  intCondition: 3
+  isAdditive: 0
+  boolValue: 0
+  boolCondition: 0
+  stringValue: 
+  location: 0
+--- !u!114 &11491862
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -879,6 +1223,72 @@ MonoBehaviour:
     linkedAsset: {fileID: 0}
   endAction: 0
   skipAction: 5
+  skipActionActual: {fileID: 11464024}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 779
+    width: 300
+    height: 21
+  nodeHeight: 0
+  parameterID: -1
+  constantID: 1530
+  _anim: {fileID: 0}
+  clip: {fileID: 7400000, guid: c1f52e60e9887479f859732eb8269b78, type: 2}
+  fadeTime: 0
+  _anim2D: {fileID: 0}
+  animator: {fileID: 0}
+  clip2D: TomatoFour_Out
+  wrapMode2D: 0
+  layerInt: 0
+  shapeObject: {fileID: 0}
+  shapeKey: 0
+  shapeValue: 0
+  isPlayer: 0
+  methodMecanim: 0
+  mecanimParameterType: 0
+  parameterName: 
+  parameterValue: 0
+  method: 0
+  blendMode: 0
+  playMode: 0
+  animationEngine: 2
+  animEngine: {fileID: 0}
+--- !u!114 &11497444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 11
+  title: Animate
+  description: Causes a GameObject to play or stop an animation, or modify a Blend
+    Shape. The available options will differ depending on the chosen animation engine.
+  isDisplayed: 0
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: 4
   skipActionActual: {fileID: 11440968}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -889,7 +1299,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 388
+    y: 167
     width: 300
     height: 21
   nodeHeight: 0
@@ -901,6 +1311,138 @@ MonoBehaviour:
   _anim2D: {fileID: 0}
   animator: {fileID: 0}
   clip2D: TomatoTwo_Up
+  wrapMode2D: 0
+  layerInt: 0
+  shapeObject: {fileID: 0}
+  shapeKey: 0
+  shapeValue: 0
+  isPlayer: 0
+  methodMecanim: 0
+  mecanimParameterType: 0
+  parameterName: 
+  parameterValue: 0
+  method: 0
+  blendMode: 0
+  playMode: 0
+  animationEngine: 2
+  animEngine: {fileID: 0}
+--- !u!114 &11497586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 11
+  title: Animate
+  description: Causes a GameObject to play or stop an animation, or modify a Blend
+    Shape. The available options will differ depending on the chosen animation engine.
+  isDisplayed: 0
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: 5
+  skipActionActual: {fileID: 11464024}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 677
+    width: 300
+    height: 21
+  nodeHeight: 0
+  parameterID: -1
+  constantID: 788320
+  _anim: {fileID: 0}
+  clip: {fileID: 7400000, guid: c1f52e60e9887479f859732eb8269b78, type: 2}
+  fadeTime: 0
+  _anim2D: {fileID: 0}
+  animator: {fileID: 0}
+  clip2D: TomatoTwo_Out
+  wrapMode2D: 0
+  layerInt: 0
+  shapeObject: {fileID: 0}
+  shapeKey: 0
+  shapeValue: 0
+  isPlayer: 0
+  methodMecanim: 0
+  mecanimParameterType: 0
+  parameterName: 
+  parameterValue: 0
+  method: 0
+  blendMode: 0
+  playMode: 0
+  animationEngine: 2
+  animEngine: {fileID: 0}
+--- !u!114 &11499426
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 11
+  title: Animate
+  description: Causes a GameObject to play or stop an animation, or modify a Blend
+    Shape. The available options will differ depending on the chosen animation engine.
+  isDisplayed: 0
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: 5
+  skipActionActual: {fileID: 11464024}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 357
+    y: 864
+    width: 300
+    height: 21
+  nodeHeight: 0
+  parameterID: -1
+  constantID: 1498
+  _anim: {fileID: 0}
+  clip: {fileID: 7400000, guid: c1f52e60e9887479f859732eb8269b78, type: 2}
+  fadeTime: 0
+  _anim2D: {fileID: 0}
+  animator: {fileID: 0}
+  clip2D: TomatoOne_Out
   wrapMode2D: 0
   layerInt: 0
   shapeObject: {fileID: 0}

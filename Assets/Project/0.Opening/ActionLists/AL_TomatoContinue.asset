@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: AL_TomatoContinue
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 11494084}
   - {fileID: 11443842}
   - {fileID: 11403846}
   isSkippable: 1
@@ -42,7 +43,7 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 0
-    skipAction: -1
+    skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -101,14 +102,14 @@ MonoBehaviour:
   description: Queries the value of both Global and Local Variables declared in the
     Variables Manager. Variables can be compared with a fixed value, or with the values
     of other Variables.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 2
   willWait: 0
   defaultPauseTime: .100000001
   isRunning: 0
   lastResult:
     resultAction: 0
-    skipAction: -1
+    skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -117,7 +118,7 @@ MonoBehaviour:
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 1
+  isEnabled: 0
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
@@ -152,3 +153,47 @@ MonoBehaviour:
   boolCondition: 0
   stringValue: 
   location: 0
+--- !u!114 &11494084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  id: 1
+  category: 5
+  title: Wait
+  description: Waits a set time before continuing.
+  isDisplayed: 1
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 1
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  parameterID: -1
+  timeToPause: 2

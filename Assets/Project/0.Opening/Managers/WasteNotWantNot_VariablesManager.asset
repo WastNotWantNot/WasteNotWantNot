@@ -34,5 +34,60 @@ MonoBehaviour:
     pmVar: 
     updateLinkOnStart: 0
     isEditing: 0
+  - label: Tomato_One
+    id: 2
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    popUps: []
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    isEditing: 0
+  - label: Tomato_Two
+    id: 3
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    popUps: []
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    isEditing: 0
+  - label: Tomato_Three
+    id: 4
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    popUps: []
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    isEditing: 0
+  - label: Tomato_Four
+    id: 5
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    popUps: []
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    isEditing: 0
+  - label: Tomato_Five
+    id: 6
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    popUps: []
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    isEditing: 1
   varPresets: []
   updateRuntime: 1
