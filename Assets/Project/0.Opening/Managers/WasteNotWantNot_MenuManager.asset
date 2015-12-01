@@ -1202,7 +1202,7 @@ MonoBehaviour:
   ID: 1
   isEditing: 0
   title: Button
-  slotSize: {x: 5.59006214, y: 3.31125832}
+  slotSize: {x: 6.12648201, y: 3.48101258}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -1225,10 +1225,10 @@ MonoBehaviour:
   uiHideStyle: 0
   relativeRect:
     serializedVersion: 2
-    x: 2.41499996
-    y: 2.41499996
-    width: 27
-    height: 10
+    x: 2.52999997
+    y: 2.52999997
+    width: 30.9999981
+    height: 11
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -1818,10 +1818,10 @@ MonoBehaviour:
   biggestElementSize: {x: 2.41499996, y: 13.0146093}
   rect:
     serializedVersion: 2
-    x: 99.9810028
-    y: 141.184998
-    width: 283.037994
-    height: 19.6299992
+    x: 104.742004
+    y: 147.729996
+    width: 296.515991
+    height: 20.539999
 --- !u!114 &11444758
 MonoBehaviour:
   m_ObjectHideFlags: 1

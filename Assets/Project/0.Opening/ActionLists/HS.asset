@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
-  m_Name: AP
+  m_Name: HS
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 11495804}
@@ -39,7 +39,7 @@ MonoBehaviour:
   description: Sends a given message to a GameObject. Can be either a message commonly-used
     by Adventure Creator (Interact, TurnOn, etc) or a custom one, with an integer
     argument.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -52,7 +52,7 @@ MonoBehaviour:
     linkedAsset: {fileID: 0}
   endAction: 0
   skipAction: 10
-  skipActionActual: {fileID: 11444582, guid: f1eaf3f98449746b684042d5c6e06c94, type: 2}
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -66,7 +66,7 @@ MonoBehaviour:
     width: 300
     height: 165
   nodeHeight: 0
-  constantID: 98780
+  constantID: 54406
   parameterID: -1
   linkedObject: {fileID: 0}
   affectChildren: 1
@@ -92,7 +92,7 @@ MonoBehaviour:
   description: Sends a given message to a GameObject. Can be either a message commonly-used
     by Adventure Creator (Interact, TurnOn, etc) or a custom one, with an integer
     argument.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -105,7 +105,7 @@ MonoBehaviour:
     linkedAsset: {fileID: 0}
   endAction: 0
   skipAction: 10
-  skipActionActual: {fileID: 11444582, guid: f1eaf3f98449746b684042d5c6e06c94, type: 2}
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -119,7 +119,7 @@ MonoBehaviour:
     width: 300
     height: 165
   nodeHeight: 0
-  constantID: 98936
+  constantID: 53454
   parameterID: -1
   linkedObject: {fileID: 0}
   affectChildren: 1
@@ -145,7 +145,7 @@ MonoBehaviour:
   description: Sends a given message to a GameObject. Can be either a message commonly-used
     by Adventure Creator (Interact, TurnOn, etc) or a custom one, with an integer
     argument.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -158,7 +158,7 @@ MonoBehaviour:
     linkedAsset: {fileID: 0}
   endAction: 0
   skipAction: 10
-  skipActionActual: {fileID: 11444582, guid: f1eaf3f98449746b684042d5c6e06c94, type: 2}
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -172,7 +172,7 @@ MonoBehaviour:
     width: 300
     height: 165
   nodeHeight: 0
-  constantID: 98462
+  constantID: 58482
   parameterID: -1
   linkedObject: {fileID: 0}
   affectChildren: 1
@@ -198,7 +198,7 @@ MonoBehaviour:
   description: Sends a given message to a GameObject. Can be either a message commonly-used
     by Adventure Creator (Interact, TurnOn, etc) or a custom one, with an integer
     argument.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -211,7 +211,7 @@ MonoBehaviour:
     linkedAsset: {fileID: 0}
   endAction: 0
   skipAction: 10
-  skipActionActual: {fileID: 11444582, guid: f1eaf3f98449746b684042d5c6e06c94, type: 2}
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -225,7 +225,7 @@ MonoBehaviour:
     width: 300
     height: 165
   nodeHeight: 0
-  constantID: 98622
+  constantID: 57706
   parameterID: -1
   linkedObject: {fileID: 0}
   affectChildren: 1
@@ -251,7 +251,7 @@ MonoBehaviour:
   description: Sends a given message to a GameObject. Can be either a message commonly-used
     by Adventure Creator (Interact, TurnOn, etc) or a custom one, with an integer
     argument.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -264,7 +264,7 @@ MonoBehaviour:
     linkedAsset: {fileID: 0}
   endAction: 0
   skipAction: 10
-  skipActionActual: {fileID: 11444582, guid: f1eaf3f98449746b684042d5c6e06c94, type: 2}
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -278,7 +278,7 @@ MonoBehaviour:
     width: 300
     height: 165
   nodeHeight: 0
-  constantID: 54972
+  constantID: 56812
   parameterID: -1
   linkedObject: {fileID: 0}
   affectChildren: 1

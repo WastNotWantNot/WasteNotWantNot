@@ -15,6 +15,7 @@ MonoBehaviour:
   - {fileID: 11427818}
   - {fileID: 11473910}
   - {fileID: 11483764}
+  - {fileID: 11435458}
   isSkippable: 1
   actionListType: 0
   unfreezePauseMenus: 1
@@ -83,7 +84,7 @@ MonoBehaviour:
     width: 300
     height: 140
   nodeHeight: 0
-  setVarMethod: 0
+  setVarMethod: 1
   setVarMethodString: 0
   setVarMethodIntBool: 0
   parameterID: -1
@@ -102,6 +103,63 @@ MonoBehaviour:
   elementName: 
   animator: {fileID: 0}
   parameterName: 
+--- !u!114 &11435458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 0
+  title: Run
+  description: Runs any ActionList (either scene-based like Cutscenes, Triggers and
+    Interactions, or ActionList assets). If the new ActionList takes parameters, this
+    Action can be used to set them.
+  isDisplayed: 1
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  listSource: 1
+  actionList: {fileID: 0}
+  invActionList: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
+  constantID: 0
+  parameterID: -1
+  runFromStart: 1
+  jumpToAction: 0
+  jumpToActionParameterID: -1
+  jumpToActionActual: {fileID: 0}
+  runInParallel: 1
+  isSkippable: 1
+  localParameters: []
+  parameterIDs: 
 --- !u!114 &11473910
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -212,7 +270,7 @@ MonoBehaviour:
     width: 300
     height: 21
   nodeHeight: 0
-  constantID: 98936
+  constantID: 56812
   parameterID: -1
   linkedObject: {fileID: 0}
   affectChildren: 1
