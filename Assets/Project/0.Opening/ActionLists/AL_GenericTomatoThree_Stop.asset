@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
-  m_Name: AL_GenericTomatoThree_Falling
+  m_Name: AL_GenericTomatoThree_Stop
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 11473910}
@@ -122,7 +122,7 @@ MonoBehaviour:
   fadeTime: 0
   _anim2D: {fileID: 0}
   animator: {fileID: 0}
-  clip2D: TomatoThree_Out
+  clip2D: TomatoThree_Idle
   wrapMode2D: 0
   layerInt: 0
   shapeObject: {fileID: 0}

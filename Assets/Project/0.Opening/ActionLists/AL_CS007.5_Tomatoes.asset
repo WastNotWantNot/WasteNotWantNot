@@ -176,23 +176,23 @@ MonoBehaviour:
   description: Queries the value of both Global and Local Variables declared in the
     Variables Manager. Variables can be compared with a fixed value, or with the values
     of other Variables.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 2
   willWait: 0
   defaultPauseTime: .100000001
   isRunning: 0
   lastResult:
-    resultAction: 0
-    skipAction: -10
+    resultAction: 3
+    skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
+    linkedAsset: {fileID: 11400000, guid: 9be4344bf522c4b16a3b34b6a5c26c60, type: 2}
   endAction: 0
   skipAction: -1
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 0
+  isEnabled: 1
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
@@ -201,18 +201,18 @@ MonoBehaviour:
     x: 365
     y: 691
     width: 300
-    height: 158
+    height: 21
   nodeHeight: 0
-  resultActionTrue: 2
+  resultActionTrue: 0
   skipActionTrue: 13
   skipActionTrueActual: {fileID: 11497586}
   linkedCutsceneTrue: {fileID: 0}
   linkedAssetTrue: {fileID: 11400000, guid: 9be4344bf522c4b16a3b34b6a5c26c60, type: 2}
-  resultActionFail: 0
-  skipActionFail: -1
-  skipActionFailActual: {fileID: 0}
+  resultActionFail: 3
+  skipActionFail: 19
+  skipActionFailActual: {fileID: 11487292}
   linkedCutsceneFail: {fileID: 0}
-  linkedAssetFail: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
+  linkedAssetFail: {fileID: 11400000, guid: 9be4344bf522c4b16a3b34b6a5c26c60, type: 2}
   parameterID: -1
   variableID: 2
   variableNumber: 2
@@ -223,7 +223,7 @@ MonoBehaviour:
   floatValue: 0
   intCondition: 3
   isAdditive: 0
-  boolValue: 0
+  boolValue: 1
   boolCondition: 0
   stringValue: 
   location: 0
@@ -423,7 +423,7 @@ MonoBehaviour:
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 0
+  isEnabled: 1
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
@@ -454,7 +454,7 @@ MonoBehaviour:
   floatValue: 0
   intCondition: 3
   isAdditive: 0
-  boolValue: 0
+  boolValue: 1
   boolCondition: 0
   stringValue: 
   location: 0
@@ -969,17 +969,17 @@ MonoBehaviour:
   defaultPauseTime: .100000001
   isRunning: 0
   lastResult:
-    resultAction: 0
+    resultAction: 3
     skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
+    linkedAsset: {fileID: 11400000, guid: e0bae8b8dbbd94bf4b338f35af2c26a2, type: 2}
   endAction: 0
   skipAction: -1
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 0
+  isEnabled: 1
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
@@ -1010,7 +1010,7 @@ MonoBehaviour:
   floatValue: 0
   intCondition: 3
   isAdditive: 0
-  boolValue: 0
+  boolValue: 1
   boolCondition: 0
   stringValue: 
   location: 0
@@ -1031,23 +1031,23 @@ MonoBehaviour:
   description: Queries the value of both Global and Local Variables declared in the
     Variables Manager. Variables can be compared with a fixed value, or with the values
     of other Variables.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 2
   willWait: 0
   defaultPauseTime: .100000001
   isRunning: 0
   lastResult:
-    resultAction: 0
+    resultAction: 3
     skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
+    linkedAsset: {fileID: 11400000, guid: 11c1eea0dca75459890578be3cc55b3c, type: 2}
   endAction: 0
   skipAction: -1
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 0
+  isEnabled: 1
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
@@ -1078,7 +1078,7 @@ MonoBehaviour:
   floatValue: 0
   intCondition: 3
   isAdditive: 0
-  boolValue: 0
+  boolValue: 1
   boolCondition: 0
   stringValue: 
   location: 0
@@ -1159,7 +1159,7 @@ MonoBehaviour:
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 0
+  isEnabled: 1
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
@@ -1190,7 +1190,7 @@ MonoBehaviour:
   floatValue: 0
   intCondition: 3
   isAdditive: 0
-  boolValue: 0
+  boolValue: 1
   boolCondition: 0
   stringValue: 
   location: 0

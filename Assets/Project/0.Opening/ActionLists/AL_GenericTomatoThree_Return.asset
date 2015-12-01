@@ -37,7 +37,7 @@ MonoBehaviour:
   description: Sends a given message to a GameObject. Can be either a message commonly-used
     by Adventure Creator (Interact, TurnOn, etc) or a custom one, with an integer
     argument.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
@@ -157,7 +157,7 @@ MonoBehaviour:
   title: Animate
   description: Causes a GameObject to play or stop an animation, or modify a Blend
     Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001

@@ -16,7 +16,7 @@ MonoBehaviour:
   - {fileID: 11458752}
   - {fileID: 11483764}
   isSkippable: 1
-  actionListType: 0
+  actionListType: 1
   unfreezePauseMenus: 1
   useParameters: 0
   parameters:
