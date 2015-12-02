@@ -15,6 +15,7 @@ MonoBehaviour:
   - {fileID: 11498386}
   - {fileID: 11479534}
   - {fileID: 11468232}
+  - {fileID: 11475344}
   isSkippable: 1
   actionListType: 0
   unfreezePauseMenus: 1
@@ -86,6 +87,53 @@ MonoBehaviour:
   playMode: 0
   animationEngine: 2
   animEngine: {fileID: 0}
+--- !u!114 &11475344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6ae5aff2ad1140a085a9c59cd30723a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 1
+  title: Crossfade
+  description: Crossfades the camera from it's current GameCamera to a new one, over
+    a specified time.
+  isDisplayed: 1
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  parameterID: -1
+  constantID: 94392
+  linkedCamera: {fileID: 0}
+  transitionTime: 0
 --- !u!114 &11479534
 MonoBehaviour:
   m_ObjectHideFlags: 1

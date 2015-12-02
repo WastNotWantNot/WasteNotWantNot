@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
-  m_Name: TempOnStartTruckStart
+  m_Name: TempOnStartStart
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 11428012}
@@ -42,7 +42,7 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 0
-    skipAction: -10
+    skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
