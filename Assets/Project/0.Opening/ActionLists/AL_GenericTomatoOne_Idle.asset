@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
-  m_Name: AL_GenericTomatoFive_Stop
+  m_Name: AL_GenericTomatoOne_Idle
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 11473910}
@@ -36,14 +36,14 @@ MonoBehaviour:
   description: Sends a given message to a GameObject. Can be either a message commonly-used
     by Adventure Creator (Interact, TurnOn, etc) or a custom one, with an integer
     argument.
-  isDisplayed: 1
+  isDisplayed: 0
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
   isRunning: 0
   lastResult:
     resultAction: 0
-    skipAction: -1
+    skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -52,7 +52,7 @@ MonoBehaviour:
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 1
+  isEnabled: 0
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
@@ -63,7 +63,7 @@ MonoBehaviour:
     width: 300
     height: 21
   nodeHeight: 0
-  constantID: 53454
+  constantID: 56812
   parameterID: -1
   linkedObject: {fileID: 0}
   affectChildren: 1
@@ -116,13 +116,13 @@ MonoBehaviour:
     height: 60
   nodeHeight: 0
   parameterID: -1
-  constantID: 88830
+  constantID: 1498
   _anim: {fileID: 0}
   clip: {fileID: 7400000, guid: c1f52e60e9887479f859732eb8269b78, type: 2}
   fadeTime: 0
   _anim2D: {fileID: 0}
   animator: {fileID: 0}
-  clip2D: TomatoFive_Idle
+  clip2D: TomatoOne_Idle
   wrapMode2D: 0
   layerInt: 0
   shapeObject: {fileID: 0}

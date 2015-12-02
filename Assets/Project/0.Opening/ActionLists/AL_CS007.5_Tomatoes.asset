@@ -26,11 +26,7 @@ MonoBehaviour:
   - {fileID: 11439970}
   - {fileID: 11488078}
   - {fileID: 11413722}
-  - {fileID: 11497586}
-  - {fileID: 11464388}
-  - {fileID: 11491862}
-  - {fileID: 11457164}
-  - {fileID: 11499426}
+  - {fileID: 11462136}
   isSkippable: 1
   actionListType: 1
   unfreezePauseMenus: 1
@@ -120,7 +116,7 @@ MonoBehaviour:
     simultaneously. This is useful when making complex cutscenes that require timing
     to be exact.
   isDisplayed: 1
-  numSockets: 5
+  numSockets: 6
   willWait: 0
   defaultPauseTime: .100000001
   isRunning: 0
@@ -141,10 +137,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 677
     width: 300
-    height: 60
+    height: 306
   nodeHeight: 0
   endings:
   - resultAction: 3
@@ -172,6 +168,11 @@ MonoBehaviour:
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 11400000, guid: 9c714a12468f24cf99fe02aa016cca68, type: 2}
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
 --- !u!114 &11419474
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -625,7 +626,7 @@ MonoBehaviour:
   sendValue: 0
   customValue: 0
   ignoreWhenSkipping: 0
---- !u!114 &11457164
+--- !u!114 &11462136
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -633,64 +634,66 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
+  m_Script: {fileID: 11500000, guid: bdaacaae7eb224bd2b2b6d336bb7b1a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
-  category: 11
-  title: Animate
-  description: Causes a GameObject to play or stop an animation, or modify a Blend
-    Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 0
-  numSockets: 1
+  category: 16
+  title: Check
+  description: Queries the value of both Global and Local Variables declared in the
+    Variables Manager. Variables can be compared with a fixed value, or with the values
+    of other Variables.
+  isDisplayed: 1
+  numSockets: 2
   willWait: 0
   defaultPauseTime: .100000001
   isRunning: 0
   lastResult:
-    resultAction: 0
-    skipAction: -10
+    resultAction: 3
+    skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
+    linkedAsset: {fileID: 11400000, guid: 22c73109976134c0c93c4ec0540164d3, type: 2}
   endAction: 0
-  skipAction: 5
-  skipActionActual: {fileID: 11464024}
+  skipAction: -1
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 0
+  isEnabled: 1
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 830
+    x: 22
+    y: 1007
     width: 300
-    height: 21
+    height: 160
   nodeHeight: 0
+  resultActionTrue: 3
+  skipActionTrue: -1
+  skipActionTrueActual: {fileID: 0}
+  linkedCutsceneTrue: {fileID: 0}
+  linkedAssetTrue: {fileID: 11400000, guid: 22c73109976134c0c93c4ec0540164d3, type: 2}
+  resultActionFail: 1
+  skipActionFail: -1
+  skipActionFailActual: {fileID: 0}
+  linkedCutsceneFail: {fileID: 0}
+  linkedAssetFail: {fileID: 0}
   parameterID: -1
-  constantID: 88830
-  _anim: {fileID: 0}
-  clip: {fileID: 7400000, guid: c1f52e60e9887479f859732eb8269b78, type: 2}
-  fadeTime: 0
-  _anim2D: {fileID: 0}
-  animator: {fileID: 0}
-  clip2D: TomatoFive_Out
-  wrapMode2D: 0
-  layerInt: 0
-  shapeObject: {fileID: 0}
-  shapeKey: 0
-  shapeValue: 0
-  isPlayer: 0
-  methodMecanim: 0
-  mecanimParameterType: 0
-  parameterName: 
-  parameterValue: 0
-  method: 0
-  blendMode: 0
-  playMode: 0
-  animationEngine: 2
-  animEngine: {fileID: 0}
+  variableID: 1
+  variableNumber: 1
+  checkParameterID: -1
+  getVarMethod: 0
+  compareVariableID: 0
+  intValue: 4
+  floatValue: 0
+  intCondition: 0
+  isAdditive: 0
+  boolValue: 1
+  boolCondition: 0
+  stringValue: 
+  location: 0
 --- !u!114 &11464024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -742,72 +745,6 @@ MonoBehaviour:
   _anim2D: {fileID: 0}
   animator: {fileID: 0}
   clip2D: TomatoFourUp
-  wrapMode2D: 0
-  layerInt: 0
-  shapeObject: {fileID: 0}
-  shapeKey: 0
-  shapeValue: 0
-  isPlayer: 0
-  methodMecanim: 0
-  mecanimParameterType: 0
-  parameterName: 
-  parameterValue: 0
-  method: 0
-  blendMode: 0
-  playMode: 0
-  animationEngine: 2
-  animEngine: {fileID: 0}
---- !u!114 &11464388
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 11
-  title: Animate
-  description: Causes a GameObject to play or stop an animation, or modify a Blend
-    Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 0
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: 5
-  skipActionActual: {fileID: 11464024}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 0
-  isAssetFile: 1
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 728
-    width: 300
-    height: 21
-  nodeHeight: 0
-  parameterID: -1
-  constantID: 89172
-  _anim: {fileID: 0}
-  clip: {fileID: 7400000, guid: c1f52e60e9887479f859732eb8269b78, type: 2}
-  fadeTime: 0
-  _anim2D: {fileID: 0}
-  animator: {fileID: 0}
-  clip2D: TomatoThree_Out
   wrapMode2D: 0
   layerInt: 0
   shapeObject: {fileID: 0}
@@ -903,8 +840,8 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
   endAction: 0
-  skipAction: 13
-  skipActionActual: {fileID: 11497586}
+  skipAction: 14
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
   isEnabled: 1
@@ -920,72 +857,6 @@ MonoBehaviour:
   nodeHeight: 0
   parameterID: -1
   timeToPause: 5
---- !u!114 &11491862
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 11
-  title: Animate
-  description: Causes a GameObject to play or stop an animation, or modify a Blend
-    Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 0
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: 5
-  skipActionActual: {fileID: 11464024}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 0
-  isAssetFile: 1
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 779
-    width: 300
-    height: 21
-  nodeHeight: 0
-  parameterID: -1
-  constantID: 1530
-  _anim: {fileID: 0}
-  clip: {fileID: 7400000, guid: c1f52e60e9887479f859732eb8269b78, type: 2}
-  fadeTime: 0
-  _anim2D: {fileID: 0}
-  animator: {fileID: 0}
-  clip2D: TomatoFour_Out
-  wrapMode2D: 0
-  layerInt: 0
-  shapeObject: {fileID: 0}
-  shapeKey: 0
-  shapeValue: 0
-  isPlayer: 0
-  methodMecanim: 0
-  mecanimParameterType: 0
-  parameterName: 
-  parameterValue: 0
-  method: 0
-  blendMode: 0
-  playMode: 0
-  animationEngine: 2
-  animEngine: {fileID: 0}
 --- !u!114 &11497444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1037,138 +908,6 @@ MonoBehaviour:
   _anim2D: {fileID: 0}
   animator: {fileID: 0}
   clip2D: TomatoTwo_Up
-  wrapMode2D: 0
-  layerInt: 0
-  shapeObject: {fileID: 0}
-  shapeKey: 0
-  shapeValue: 0
-  isPlayer: 0
-  methodMecanim: 0
-  mecanimParameterType: 0
-  parameterName: 
-  parameterValue: 0
-  method: 0
-  blendMode: 0
-  playMode: 0
-  animationEngine: 2
-  animEngine: {fileID: 0}
---- !u!114 &11497586
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 11
-  title: Animate
-  description: Causes a GameObject to play or stop an animation, or modify a Blend
-    Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 0
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: 5
-  skipActionActual: {fileID: 11464024}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 0
-  isAssetFile: 1
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 677
-    width: 300
-    height: 21
-  nodeHeight: 0
-  parameterID: -1
-  constantID: 788320
-  _anim: {fileID: 0}
-  clip: {fileID: 7400000, guid: c1f52e60e9887479f859732eb8269b78, type: 2}
-  fadeTime: 0
-  _anim2D: {fileID: 0}
-  animator: {fileID: 0}
-  clip2D: TomatoTwo_Out
-  wrapMode2D: 0
-  layerInt: 0
-  shapeObject: {fileID: 0}
-  shapeKey: 0
-  shapeValue: 0
-  isPlayer: 0
-  methodMecanim: 0
-  mecanimParameterType: 0
-  parameterName: 
-  parameterValue: 0
-  method: 0
-  blendMode: 0
-  playMode: 0
-  animationEngine: 2
-  animEngine: {fileID: 0}
---- !u!114 &11499426
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 11
-  title: Animate
-  description: Causes a GameObject to play or stop an animation, or modify a Blend
-    Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 0
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: 5
-  skipActionActual: {fileID: 11464024}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 0
-  isAssetFile: 1
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 357
-    y: 864
-    width: 300
-    height: 21
-  nodeHeight: 0
-  parameterID: -1
-  constantID: 1498
-  _anim: {fileID: 0}
-  clip: {fileID: 7400000, guid: c1f52e60e9887479f859732eb8269b78, type: 2}
-  fadeTime: 0
-  _anim2D: {fileID: 0}
-  animator: {fileID: 0}
-  clip2D: TomatoOne_Out
   wrapMode2D: 0
   layerInt: 0
   shapeObject: {fileID: 0}
