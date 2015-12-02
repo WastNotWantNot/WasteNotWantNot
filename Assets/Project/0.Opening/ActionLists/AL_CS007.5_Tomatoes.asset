@@ -25,16 +25,12 @@ MonoBehaviour:
   - {fileID: 11467790}
   - {fileID: 11439970}
   - {fileID: 11488078}
+  - {fileID: 11413722}
   - {fileID: 11497586}
   - {fileID: 11464388}
   - {fileID: 11491862}
   - {fileID: 11457164}
   - {fileID: 11499426}
-  - {fileID: 11427358}
-  - {fileID: 11487292}
-  - {fileID: 11487444}
-  - {fileID: 11438134}
-  - {fileID: 11488168}
   isSkippable: 1
   actionListType: 1
   unfreezePauseMenus: 1
@@ -106,6 +102,76 @@ MonoBehaviour:
   playMode: 0
   animationEngine: 2
   animEngine: {fileID: 0}
+--- !u!114 &11413722
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dacbb59e20dd44feeb6ee4372547b66d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 0
+  title: Run in parallel
+  description: Runs any subsequent Actions (whether in the same list or in a new one)
+    simultaneously. This is useful when making complex cutscenes that require timing
+    to be exact.
+  isDisplayed: 1
+  numSockets: 5
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  nodeHeight: 0
+  endings:
+  - resultAction: 3
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 11400000, guid: 9baad4fc89f174cf2a52d496b964148a, type: 2}
+  - resultAction: 3
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 11400000, guid: facee2d863c2c4d58a9589b444b54145, type: 2}
+  - resultAction: 3
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 11400000, guid: 6fe7ff1693664496694e998d4ae4a536, type: 2}
+  - resultAction: 3
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 11400000, guid: c0bbc2ac5123c44c8a1e81298f9bb7ad, type: 2}
+  - resultAction: 3
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 11400000, guid: 9c714a12468f24cf99fe02aa016cca68, type: 2}
 --- !u!114 &11419474
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -159,74 +225,6 @@ MonoBehaviour:
   sendValue: 0
   customValue: 0
   ignoreWhenSkipping: 0
---- !u!114 &11427358
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdaacaae7eb224bd2b2b6d336bb7b1a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 16
-  title: Check
-  description: Queries the value of both Global and Local Variables declared in the
-    Variables Manager. Variables can be compared with a fixed value, or with the values
-    of other Variables.
-  isDisplayed: 0
-  numSockets: 2
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 3
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 11400000, guid: 9be4344bf522c4b16a3b34b6a5c26c60, type: 2}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 1
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 365
-    y: 691
-    width: 300
-    height: 21
-  nodeHeight: 0
-  resultActionTrue: 0
-  skipActionTrue: 13
-  skipActionTrueActual: {fileID: 11497586}
-  linkedCutsceneTrue: {fileID: 0}
-  linkedAssetTrue: {fileID: 11400000, guid: 9be4344bf522c4b16a3b34b6a5c26c60, type: 2}
-  resultActionFail: 3
-  skipActionFail: 19
-  skipActionFailActual: {fileID: 11487292}
-  linkedCutsceneFail: {fileID: 0}
-  linkedAssetFail: {fileID: 11400000, guid: 9be4344bf522c4b16a3b34b6a5c26c60, type: 2}
-  parameterID: -1
-  variableID: 2
-  variableNumber: 2
-  checkParameterID: -1
-  getVarMethod: 0
-  compareVariableID: 0
-  intValue: 1
-  floatValue: 0
-  intCondition: 3
-  isAdditive: 0
-  boolValue: 1
-  boolCondition: 0
-  stringValue: 
-  location: 0
 --- !u!114 &11430610
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -390,74 +388,6 @@ MonoBehaviour:
   nodeHeight: 0
   commentText: Play Animation for tomatos flying in the air
   outputToDebugger: 0
---- !u!114 &11438134
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdaacaae7eb224bd2b2b6d336bb7b1a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 16
-  title: Check
-  description: Queries the value of both Global and Local Variables declared in the
-    Variables Manager. Variables can be compared with a fixed value, or with the values
-    of other Variables.
-  isDisplayed: 0
-  numSockets: 2
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 1
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 364
-    y: 1471
-    width: 300
-    height: 158
-  nodeHeight: 0
-  resultActionTrue: 3
-  skipActionTrue: -1
-  skipActionTrueActual: {fileID: 0}
-  linkedCutsceneTrue: {fileID: 0}
-  linkedAssetTrue: {fileID: 11400000, guid: 7dab9d15becf143bbb9c9c78393cedc4, type: 2}
-  resultActionFail: 0
-  skipActionFail: -1
-  skipActionFailActual: {fileID: 0}
-  linkedCutsceneFail: {fileID: 0}
-  linkedAssetFail: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
-  parameterID: -1
-  variableID: 5
-  variableNumber: 5
-  checkParameterID: -1
-  getVarMethod: 0
-  compareVariableID: 0
-  intValue: 1
-  floatValue: 0
-  intCondition: 3
-  isAdditive: 0
-  boolValue: 1
-  boolCondition: 0
-  stringValue: 
-  location: 0
 --- !u!114 &11439970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -718,7 +648,7 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 0
-    skipAction: -1
+    skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -727,7 +657,7 @@ MonoBehaviour:
   skipActionActual: {fileID: 11464024}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 1
+  isEnabled: 0
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
@@ -859,7 +789,7 @@ MonoBehaviour:
   skipActionActual: {fileID: 11464024}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 1
+  isEnabled: 0
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
@@ -946,142 +876,6 @@ MonoBehaviour:
   sendValue: 0
   customValue: 0
   ignoreWhenSkipping: 0
---- !u!114 &11487292
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdaacaae7eb224bd2b2b6d336bb7b1a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 16
-  title: Check
-  description: Queries the value of both Global and Local Variables declared in the
-    Variables Manager. Variables can be compared with a fixed value, or with the values
-    of other Variables.
-  isDisplayed: 1
-  numSockets: 2
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 3
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 11400000, guid: e0bae8b8dbbd94bf4b338f35af2c26a2, type: 2}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 1
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 364
-    y: 1369
-    width: 300
-    height: 21
-  nodeHeight: 0
-  resultActionTrue: 3
-  skipActionTrue: -1
-  skipActionTrueActual: {fileID: 0}
-  linkedCutsceneTrue: {fileID: 0}
-  linkedAssetTrue: {fileID: 11400000, guid: e0bae8b8dbbd94bf4b338f35af2c26a2, type: 2}
-  resultActionFail: 0
-  skipActionFail: -1
-  skipActionFailActual: {fileID: 0}
-  linkedCutsceneFail: {fileID: 0}
-  linkedAssetFail: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
-  parameterID: -1
-  variableID: 3
-  variableNumber: 3
-  checkParameterID: -1
-  getVarMethod: 0
-  compareVariableID: 0
-  intValue: 1
-  floatValue: 0
-  intCondition: 3
-  isAdditive: 0
-  boolValue: 1
-  boolCondition: 0
-  stringValue: 
-  location: 0
---- !u!114 &11487444
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdaacaae7eb224bd2b2b6d336bb7b1a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 16
-  title: Check
-  description: Queries the value of both Global and Local Variables declared in the
-    Variables Manager. Variables can be compared with a fixed value, or with the values
-    of other Variables.
-  isDisplayed: 1
-  numSockets: 2
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 3
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 11400000, guid: 11c1eea0dca75459890578be3cc55b3c, type: 2}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 1
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 364
-    y: 1420
-    width: 300
-    height: 21
-  nodeHeight: 0
-  resultActionTrue: 3
-  skipActionTrue: -1
-  skipActionTrueActual: {fileID: 0}
-  linkedCutsceneTrue: {fileID: 0}
-  linkedAssetTrue: {fileID: 11400000, guid: 11c1eea0dca75459890578be3cc55b3c, type: 2}
-  resultActionFail: 0
-  skipActionFail: -1
-  skipActionFailActual: {fileID: 0}
-  linkedCutsceneFail: {fileID: 0}
-  linkedAssetFail: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
-  parameterID: -1
-  variableID: 4
-  variableNumber: 4
-  checkParameterID: -1
-  getVarMethod: 0
-  compareVariableID: 0
-  intValue: 1
-  floatValue: 0
-  intCondition: 3
-  isAdditive: 0
-  boolValue: 1
-  boolCondition: 0
-  stringValue: 
-  location: 0
 --- !u!114 &11488078
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1126,74 +920,6 @@ MonoBehaviour:
   nodeHeight: 0
   parameterID: -1
   timeToPause: 5
---- !u!114 &11488168
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdaacaae7eb224bd2b2b6d336bb7b1a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 16
-  title: Check
-  description: Queries the value of both Global and Local Variables declared in the
-    Variables Manager. Variables can be compared with a fixed value, or with the values
-    of other Variables.
-  isDisplayed: 0
-  numSockets: 2
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 1
-  isMarked: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 364
-    y: 1659
-    width: 300
-    height: 158
-  nodeHeight: 0
-  resultActionTrue: 3
-  skipActionTrue: -1
-  skipActionTrueActual: {fileID: 0}
-  linkedCutsceneTrue: {fileID: 0}
-  linkedAssetTrue: {fileID: 11400000, guid: bb3ee9c9673c44ecd98f8bfed3b50ee8, type: 2}
-  resultActionFail: 0
-  skipActionFail: -1
-  skipActionFailActual: {fileID: 0}
-  linkedCutsceneFail: {fileID: 0}
-  linkedAssetFail: {fileID: 11400000, guid: ec183e621bbba41f291e3cc72e7b5163, type: 2}
-  parameterID: -1
-  variableID: 6
-  variableNumber: 6
-  checkParameterID: -1
-  getVarMethod: 0
-  compareVariableID: 0
-  intValue: 1
-  floatValue: 0
-  intCondition: 3
-  isAdditive: 0
-  boolValue: 1
-  boolCondition: 0
-  stringValue: 
-  location: 0
 --- !u!114 &11491862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1226,7 +952,7 @@ MonoBehaviour:
   skipActionActual: {fileID: 11464024}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 1
+  isEnabled: 0
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
@@ -1358,7 +1084,7 @@ MonoBehaviour:
   skipActionActual: {fileID: 11464024}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 1
+  isEnabled: 0
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
@@ -1424,7 +1150,7 @@ MonoBehaviour:
   skipActionActual: {fileID: 11464024}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  isEnabled: 1
+  isEnabled: 0
   isAssetFile: 1
   isMarked: 0
   isBreakPoint: 0
