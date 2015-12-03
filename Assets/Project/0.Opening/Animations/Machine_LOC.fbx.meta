@@ -44,8 +44,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Machine_Anim
       takeName: Take 001
-      firstFrame: 1
-      lastFrame: 128
+      firstFrame: 24
+      lastFrame: 84
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
