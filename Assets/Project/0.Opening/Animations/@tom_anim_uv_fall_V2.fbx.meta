@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: b3a3246e4f48846c4aaa9bb77b5b3985
+timeCreated: 1449574923
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: TOM_falling_anim1:ankle_L_JNT
+    100004: TOM_falling_anim1:ankle_L_JNT 1
+    100006: TOM_falling_anim1:ankle_R_JNT
+    100008: TOM_falling_anim1:ankle_R_JNT 1
+    100010: TOM_falling_anim1:Blend_Shapes
+    100012: TOM_falling_anim1:body_M_GEO
+    100014: TOM_falling_anim1:elbow_L_JNT
+    100016: TOM_falling_anim1:elbow_L_JNT 1
+    100018: TOM_falling_anim1:elbow_R_JNT
+    100020: TOM_falling_anim1:elbow_R_JNT 1
+    100022: TOM_falling_anim1:eye_L_GEO
+    100024: TOM_falling_anim1:eye_L_JNT
+    100026: TOM_falling_anim1:eye_L_JNT 1
+    100028: TOM_falling_anim1:eye_R_GEO
+    100030: TOM_falling_anim1:eye_R_JNT
+    100032: TOM_falling_anim1:eye_R_JNT 1
+    100034: TOM_falling_anim1:eyebrow_L_CON
+    100036: TOM_falling_anim1:eyebrow_L_GEO
+    100038: TOM_falling_anim1:eyebrow_L_LOC
+    100040: TOM_falling_anim1:eyebrow_R_CON
+    100042: TOM_falling_anim1:eyebrow_R_GEO
+    100044: TOM_falling_anim1:eyebrow_R_LOC
+    100046: TOM_falling_anim1:FK
+    100048: TOM_falling_anim1:fk
+    100050: TOM_falling_anim1:foot_L_JNT
+    100052: TOM_falling_anim1:foot_L_JNT 1
+    100054: TOM_falling_anim1:foot_R_JNT
+    100056: TOM_falling_anim1:foot_R_JNT 1
+    100058: TOM_falling_anim1:Geom_All
+    100060: TOM_falling_anim1:hand_L_JNT
+    100062: TOM_falling_anim1:hand_L_JNT 1
+    100064: TOM_falling_anim1:hand_R_JNT
+    100066: TOM_falling_anim1:hand_R_JNT 1
+    100068: TOM_falling_anim1:head_M_JNT
+    100070: TOM_falling_anim1:head_M_JNT 1
+    100072: TOM_falling_anim1:hip_CON
+    100074: TOM_falling_anim1:hip_L_JNT
+    100076: TOM_falling_anim1:hip_L_JNT 1
+    100078: TOM_falling_anim1:hip_M_ZERO
+    100080: TOM_falling_anim1:hip_R_JNT
+    100082: TOM_falling_anim1:hip_R_JNT 1
+    100084: TOM_falling_anim1:IK
+    100086: TOM_falling_anim1:ik
+    100088: TOM_falling_anim1:IK_Controls
+    100090: TOM_falling_anim1:knee_L_JNT
+    100092: TOM_falling_anim1:knee_L_JNT 1
+    100094: TOM_falling_anim1:knee_R_JNT
+    100096: TOM_falling_anim1:knee_R_JNT 1
+    100098: TOM_falling_anim1:leaftip_M_JNT
+    100100: TOM_falling_anim1:leaftip_M_JNT 1
+    100102: TOM_falling_anim1:leaves_M_JNT
+    100104: TOM_falling_anim1:leaves_M_JNT 1
+    100106: TOM_falling_anim1:mouth_M_JNT
+    100108: TOM_falling_anim1:original
+    100110: TOM_falling_anim1:shoulder_L_JNT
+    100112: TOM_falling_anim1:shoulder_L_JNT 1
+    100114: TOM_falling_anim1:shoulder_R_JNT
+    100116: TOM_falling_anim1:shoulder_R_JNT 1
+    100118: TOM_falling_anim1:tom_all_GEO
+    100120: TOM_falling_anim1:torso_M_JNT
+    100122: TOM_falling_anim1:torso_M_JNT 1
+    100124: TOM_falling_anim1:transform1
+    100126: TOM_falling_anim1:wrist_L_JNT
+    100128: TOM_falling_anim1:wrist_L_JNT 1
+    100130: TOM_falling_anim1:wrist_R_JNT
+    100132: TOM_falling_anim1:wrist_R_JNT 1
+    400000: //RootNode
+    400002: TOM_falling_anim1:ankle_L_JNT
+    400004: TOM_falling_anim1:ankle_L_JNT 1
+    400006: TOM_falling_anim1:ankle_R_JNT
+    400008: TOM_falling_anim1:ankle_R_JNT 1
+    400010: TOM_falling_anim1:Blend_Shapes
+    400012: TOM_falling_anim1:body_M_GEO
+    400014: TOM_falling_anim1:elbow_L_JNT
+    400016: TOM_falling_anim1:elbow_L_JNT 1
+    400018: TOM_falling_anim1:elbow_R_JNT
+    400020: TOM_falling_anim1:elbow_R_JNT 1
+    400022: TOM_falling_anim1:eye_L_GEO
+    400024: TOM_falling_anim1:eye_L_JNT
+    400026: TOM_falling_anim1:eye_L_JNT 1
+    400028: TOM_falling_anim1:eye_R_GEO
+    400030: TOM_falling_anim1:eye_R_JNT
+    400032: TOM_falling_anim1:eye_R_JNT 1
+    400034: TOM_falling_anim1:eyebrow_L_CON
+    400036: TOM_falling_anim1:eyebrow_L_GEO
+    400038: TOM_falling_anim1:eyebrow_L_LOC
+    400040: TOM_falling_anim1:eyebrow_R_CON
+    400042: TOM_falling_anim1:eyebrow_R_GEO
+    400044: TOM_falling_anim1:eyebrow_R_LOC
+    400046: TOM_falling_anim1:FK
+    400048: TOM_falling_anim1:fk
+    400050: TOM_falling_anim1:foot_L_JNT
+    400052: TOM_falling_anim1:foot_L_JNT 1
+    400054: TOM_falling_anim1:foot_R_JNT
+    400056: TOM_falling_anim1:foot_R_JNT 1
+    400058: TOM_falling_anim1:Geom_All
+    400060: TOM_falling_anim1:hand_L_JNT
+    400062: TOM_falling_anim1:hand_L_JNT 1
+    400064: TOM_falling_anim1:hand_R_JNT
+    400066: TOM_falling_anim1:hand_R_JNT 1
+    400068: TOM_falling_anim1:head_M_JNT
+    400070: TOM_falling_anim1:head_M_JNT 1
+    400072: TOM_falling_anim1:hip_CON
+    400074: TOM_falling_anim1:hip_L_JNT
+    400076: TOM_falling_anim1:hip_L_JNT 1
+    400078: TOM_falling_anim1:hip_M_ZERO
+    400080: TOM_falling_anim1:hip_R_JNT
+    400082: TOM_falling_anim1:hip_R_JNT 1
+    400084: TOM_falling_anim1:IK
+    400086: TOM_falling_anim1:ik
+    400088: TOM_falling_anim1:IK_Controls
+    400090: TOM_falling_anim1:knee_L_JNT
+    400092: TOM_falling_anim1:knee_L_JNT 1
+    400094: TOM_falling_anim1:knee_R_JNT
+    400096: TOM_falling_anim1:knee_R_JNT 1
+    400098: TOM_falling_anim1:leaftip_M_JNT
+    400100: TOM_falling_anim1:leaftip_M_JNT 1
+    400102: TOM_falling_anim1:leaves_M_JNT
+    400104: TOM_falling_anim1:leaves_M_JNT 1
+    400106: TOM_falling_anim1:mouth_M_JNT
+    400108: TOM_falling_anim1:original
+    400110: TOM_falling_anim1:shoulder_L_JNT
+    400112: TOM_falling_anim1:shoulder_L_JNT 1
+    400114: TOM_falling_anim1:shoulder_R_JNT
+    400116: TOM_falling_anim1:shoulder_R_JNT 1
+    400118: TOM_falling_anim1:tom_all_GEO
+    400120: TOM_falling_anim1:torso_M_JNT
+    400122: TOM_falling_anim1:torso_M_JNT 1
+    400124: TOM_falling_anim1:transform1
+    400126: TOM_falling_anim1:wrist_L_JNT
+    400128: TOM_falling_anim1:wrist_L_JNT 1
+    400130: TOM_falling_anim1:wrist_R_JNT
+    400132: TOM_falling_anim1:wrist_R_JNT 1
+    2300000: TOM_falling_anim1:eyebrow_L_GEO
+    2300002: TOM_falling_anim1:eyebrow_R_GEO
+    3300000: TOM_falling_anim1:eyebrow_L_GEO
+    3300002: TOM_falling_anim1:eyebrow_R_GEO
+    4300000: TOM_falling_anim1:body_M_GEO
+    4300002: TOM_falling_anim1:eye_R_GEO
+    4300004: TOM_falling_anim1:eye_L_GEO
+    4300006: TOM_falling_anim1:eyebrow_R_GEO
+    4300008: TOM_falling_anim1:eyebrow_L_GEO
+    4300010: TOM_falling_anim1:original
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: TOM_falling_anim1:body_M_GEO
+    13700002: TOM_falling_anim1:eye_L_GEO
+    13700004: TOM_falling_anim1:eye_R_GEO
+    13700006: TOM_falling_anim1:original
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

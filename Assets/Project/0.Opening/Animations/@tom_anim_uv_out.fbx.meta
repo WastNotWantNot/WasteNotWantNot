@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: 03e7de9fede2a4cdaa18114e61ec8f48
+timeCreated: 1449572303
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ankle_L_JNT
+    100004: ankle_L_JNT 1
+    100006: ankle_R_JNT
+    100008: ankle_R_JNT 1
+    100010: Blend_Shapes
+    100012: body_M_GEO
+    100014: elbow_L_JNT
+    100016: elbow_L_JNT 1
+    100018: elbow_R_JNT
+    100020: elbow_R_JNT 1
+    100022: eye_L_GEO
+    100024: eye_L_JNT
+    100026: eye_L_JNT 1
+    100028: eye_R_GEO
+    100030: eye_R_JNT
+    100032: eye_R_JNT 1
+    100034: eyebrow_L_CON
+    100036: eyebrow_L_GEO
+    100038: eyebrow_L_LOC
+    100040: eyebrow_R_CON
+    100042: eyebrow_R_GEO
+    100044: eyebrow_R_LOC
+    100046: FK
+    100048: fk
+    100050: foot_L_JNT
+    100052: foot_L_JNT 1
+    100054: foot_R_JNT
+    100056: foot_R_JNT 1
+    100058: Geom_All
+    100060: hand_L_JNT
+    100062: hand_L_JNT 1
+    100064: hand_R_JNT
+    100066: hand_R_JNT 1
+    100068: head_M_JNT
+    100070: head_M_JNT 1
+    100072: hip_CON
+    100074: hip_L_JNT
+    100076: hip_L_JNT 1
+    100078: hip_M_ZERO
+    100080: hip_R_JNT
+    100082: hip_R_JNT 1
+    100084: IK
+    100086: ik
+    100088: IK_Controls
+    100090: knee_L_JNT
+    100092: knee_L_JNT 1
+    100094: knee_R_JNT
+    100096: knee_R_JNT 1
+    100098: leaftip_M_JNT
+    100100: leaftip_M_JNT 1
+    100102: leaves_M_JNT
+    100104: leaves_M_JNT 1
+    100106: mouth_M_JNT
+    100108: original
+    100110: shoulder_L_JNT
+    100112: shoulder_L_JNT 1
+    100114: shoulder_R_JNT
+    100116: shoulder_R_JNT 1
+    100118: tom_all_GEO
+    100120: torso_M_JNT
+    100122: torso_M_JNT 1
+    100124: transform1
+    100126: wrist_L_JNT
+    100128: wrist_L_JNT 1
+    100130: wrist_R_JNT
+    100132: wrist_R_JNT 1
+    400000: //RootNode
+    400002: ankle_L_JNT
+    400004: ankle_L_JNT 1
+    400006: ankle_R_JNT
+    400008: ankle_R_JNT 1
+    400010: Blend_Shapes
+    400012: body_M_GEO
+    400014: elbow_L_JNT
+    400016: elbow_L_JNT 1
+    400018: elbow_R_JNT
+    400020: elbow_R_JNT 1
+    400022: eye_L_GEO
+    400024: eye_L_JNT
+    400026: eye_L_JNT 1
+    400028: eye_R_GEO
+    400030: eye_R_JNT
+    400032: eye_R_JNT 1
+    400034: eyebrow_L_CON
+    400036: eyebrow_L_GEO
+    400038: eyebrow_L_LOC
+    400040: eyebrow_R_CON
+    400042: eyebrow_R_GEO
+    400044: eyebrow_R_LOC
+    400046: FK
+    400048: fk
+    400050: foot_L_JNT
+    400052: foot_L_JNT 1
+    400054: foot_R_JNT
+    400056: foot_R_JNT 1
+    400058: Geom_All
+    400060: hand_L_JNT
+    400062: hand_L_JNT 1
+    400064: hand_R_JNT
+    400066: hand_R_JNT 1
+    400068: head_M_JNT
+    400070: head_M_JNT 1
+    400072: hip_CON
+    400074: hip_L_JNT
+    400076: hip_L_JNT 1
+    400078: hip_M_ZERO
+    400080: hip_R_JNT
+    400082: hip_R_JNT 1
+    400084: IK
+    400086: ik
+    400088: IK_Controls
+    400090: knee_L_JNT
+    400092: knee_L_JNT 1
+    400094: knee_R_JNT
+    400096: knee_R_JNT 1
+    400098: leaftip_M_JNT
+    400100: leaftip_M_JNT 1
+    400102: leaves_M_JNT
+    400104: leaves_M_JNT 1
+    400106: mouth_M_JNT
+    400108: original
+    400110: shoulder_L_JNT
+    400112: shoulder_L_JNT 1
+    400114: shoulder_R_JNT
+    400116: shoulder_R_JNT 1
+    400118: tom_all_GEO
+    400120: torso_M_JNT
+    400122: torso_M_JNT 1
+    400124: transform1
+    400126: wrist_L_JNT
+    400128: wrist_L_JNT 1
+    400130: wrist_R_JNT
+    400132: wrist_R_JNT 1
+    2300000: eyebrow_L_GEO
+    2300002: eyebrow_R_GEO
+    3300000: eyebrow_L_GEO
+    3300002: eyebrow_R_GEO
+    4300000: body_M_GEO
+    4300002: eye_R_GEO
+    4300004: eye_L_GEO
+    4300006: eyebrow_R_GEO
+    4300008: eyebrow_L_GEO
+    4300010: original
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: body_M_GEO
+    13700002: eye_L_GEO
+    13700004: eye_R_GEO
+    13700006: original
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

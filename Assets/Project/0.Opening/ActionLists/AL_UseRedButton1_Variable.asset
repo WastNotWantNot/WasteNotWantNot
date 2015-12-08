@@ -192,7 +192,7 @@ MonoBehaviour:
   title: Animate
   description: Causes a GameObject to play or stop an animation, or modify a Blend
     Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 1
   defaultPauseTime: .100000001
@@ -258,7 +258,7 @@ MonoBehaviour:
   title: Animate
   description: Causes a GameObject to play or stop an animation, or modify a Blend
     Shape. The available options will differ depending on the chosen animation engine.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 1
   defaultPauseTime: .100000001
@@ -371,7 +371,7 @@ MonoBehaviour:
   category: 9
   title: Change state
   description: Provides various options to show and hide both menus and menu elements.
-  isDisplayed: 0
+  isDisplayed: 1
   numSockets: 1
   willWait: 0
   defaultPauseTime: .100000001
